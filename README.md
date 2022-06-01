@@ -1,4 +1,4 @@
-!!!STILL TESTING PHASE!!!
+!!!STILL BUILDING FILE MESS I HAVE!!!
 
 # About gamepatches:
 you will find here codes enhacemens hacks etc i did across my life an last years, for games consoles from generations ps2, ps3, wii, ps1 psp etc; for pc emulation, console emulation.
