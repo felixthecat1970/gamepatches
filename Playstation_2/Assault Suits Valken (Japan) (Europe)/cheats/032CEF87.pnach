@@ -1,6 +1,7 @@
 gametitle=Assault Suits Valken (Japan) 重装機兵ヴァルケン SLPM_625.01;1) Game CRC = 0x032CEF87
 comment=Enable native progresive mode v2 by felixthecat1970
 
+//480p + skip pal-ntsc selector + corrections
 patch=0,EE,201C53FC,extended,240701C0
 patch=0,EE,201C5410,extended,24050004
 patch=0,EE,201E2D14,extended,65E3013E
