@@ -2,7 +2,7 @@ gametitle=Assault Suits Valken (Europe) SLES_532.33;1) Game CRC = 0x1E177BBC
 comment=Enable native progressive mode by Felixthecat1970
 
 //480p + skip pal-ntsc selector + corrections
-patch=0,EE,2011D908,extended,00000000
+patch=0,EE,2011D908,extended,00000000 //patch this file to SLES_532.33 when promted
 patch=1,EE,2020FB0C,extended,24050004
 patch=1,EE,2020FB10,extended,240701C0
 patch=1,EE,2020BA40,extended,6466013E
