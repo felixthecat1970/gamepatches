@@ -1,0 +1,6 @@
+gametitle=Sengoku Basara X (Japan) SLPM_550.08;1) Game CRC = 0x721DEBE4
+comment=480p native sdtv mode unlock + extend resolution 640x480 v3 by felixthecat1970
+
+//480p + 640x480 res. v3 (disable antialias option in game menu for 640x480)
+patch=0,EE,201004E4,extended,A2620016
+patch=0,EE,0010CF00,extended,24040000

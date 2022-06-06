@@ -1,0 +1,1 @@
+pcsx2-qtx64-avx2 -fullscreen ".\Sengoku Basara.iso"
