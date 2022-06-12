@@ -1,0 +1,46 @@
+gametitle=Tekken 5 (Europe, Australia) (En,Fr,De,Es,It) SCES_532.02;1) Game CRC = 0x1F88BECD
+comment=Game enhacements codes v2 by FelixThecat1970
+
+//Recomended "SoftWare mode" enable CRC hack level "Debug (none)" for show special effects in scenarios.
+//Hardware mode keep enabled CRC hack level "Automatic (Default)" for disable broken effects in scenarios "PCSX2 Graphics Bug"
+
+patch=0,EE,00D6F8A8,extended,2A020001
+
+patch=1,EE,E009B0F0,extended,01FFEF20
+patch=1,EE,203036A4,extended,341B0001
+patch=1,EE,203038C4,extended,A07B0000
+patch=1,EE,202F13F0,extended,AC940004
+patch=1,EE,20333204,extended,30630000
+patch=1,EE,2034B5D8,extended,00431025
+patch=1,EE,2034B5DC,extended,FCA20010
+patch=1,EE,2034B1DC,extended,00441025
+patch=1,EE,2034B1E0,extended,FE020010
+patch=1,EE,2034B1A0,extended,24020001
+
+patch=1,EE,E008B0F0,extended,01FFEF20
+patch=1,EE,202F07F8,extended,24030020
+patch=1,EE,202F07FC,extended,00000000
+patch=1,EE,2077B74C,extended,38345B20
+patch=1,EE,2077B750,extended,2F2E7030
+patch=1,EE,2077B754,extended,7A483036
+patch=1,EE,20778028,extended,3834A4C9
+patch=1,EE,2077802C,extended,2F2E7030
+patch=1,EE,20778030,extended,7A483036
+
+patch=1,EE,E004B0F0,extended,01FFEF20
+patch=1,EE,D03F8ADA,extended,0100
+patch=1,EE,00340BB0,extended,40 //original code by nemesis 2000
+patch=1,EE,D03F8ADA,extended,0000
+patch=1,EE,00340BB0,extended,80
+
+patch=1,EE,E0020001,extended,00224448
+patch=1,EE,20224448,extended,00500000
+patch=1,EE,2039D148,extended,00500000
+
+patch=1,EE,E006FFF0,extended,00100000
+patch=1,EE,20100168,extended,A2042081
+patch=1,EE,2021E2F4,extended,3C013F40 //orignal code by ElHecht
+patch=1,EE,2021E2F8,extended,4481F000
+patch=1,EE,2021E304,extended,461EBDC3
+patch=1,EE,2023025C,extended,01CF7025
+patch=1,EE,20230260,extended,FCAE0010

@@ -1,0 +1,35 @@
+gametitle=Tekken 5 GH (USA) SLUS_210.59 Game CRC = 652050D2
+comment=Game enhacements codes v2 by FelixThecat1970
+
+//Recomended "SoftWare mode" enable CRC hack level "Debug (none)" for show special effects in scenarios.
+//Hardware mode keep enabled CRC hack level "Automatic (Default)" for disable broken effects in scenarios "PCSX2 Graphics Bug"
+
+patch=0,EE,00D05EC8,extended,24050000
+patch=0,EE,00D05ECC,extended,24060050
+patch=0,EE,20D05ED4,extended,24070001
+
+patch=1,EE,E0078870,extended,01FFEF20
+patch=1,EE,202DE308,extended,AC940004
+patch=1,EE,202F06DC,extended,341B0001
+patch=1,EE,202F08FC,extended,A07B0000
+patch=1,EE,0031DA9C,extended,30630000
+patch=1,EE,00335A38,extended,24020001
+patch=1,EE,20335A5C,extended,00031C02
+patch=1,EE,20335E58,extended,00042402
+
+patch=1,EE,E0048870,extended,01FFEF20
+patch=1,EE,D03E453A,extended,0100
+patch=1,EE,0032B448,extended,40 //original code nemesis 2000
+patch=1,EE,D03E453A,extended,0000
+patch=1,EE,0032B448,extended,80
+
+patch=1,EE,E0020001,extended,0027E448
+patch=1,EE,2027E448,extended,00500000
+patch=1,EE,203F7330,extended,00500000
+
+patch=1,EE,E0052C70,extended,01FFEF20
+patch=1,EE,2022E8FC,extended,000D6C3A
+patch=1,EE,2022E50C,extended,000E743A
+patch=1,EE,2021C9C0,extended,3C013F40 //orignal code by ElHecht
+patch=1,EE,2021C9CC,extended,4481F000
+patch=1,EE,2021C9D0,extended,461EBDC3
