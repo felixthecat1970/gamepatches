@@ -1,0 +1,6 @@
+gametitle=Street Fighter Alpha Anthology (USA) SLUS_213.17;1) Game CRC = 0x72CE7A78
+comment=Auto enable progresive mode by felixthecat1970
+
+patch=0,EE,001489A0,extended,24050000 //autoprogressive mode load
+patch=0,EE,001489A4,extended,24060050
+patch=0,EE,201492C4,extended,24040002
