@@ -1,0 +1,38 @@
+gametitle=Batman Begins (USA) SLUS_211.98;1) Game CRC = 0x57EB973A
+comment=60fps reworked code + 480p + Qol options fixes by Felixthecat1970
+
+//original FPS unlock result value by Asasega
+
+patch=0,EE,0033060C,extended,24100050
+patch=0,EE,0033069C,extended,24050000
+
+patch=0,EE,00330DAC,extended,24E7FFFF
+patch=0,EE,00331F94,extended,24E7FFFF
+patch=0,EE,203347E8,extended,00000000
+patch=0,EE,10334734,extended,24C202D0
+patch=0,EE,10334704,extended,240301B0
+
+patch=0,EE,001002C0,extended,2402003C
+
+patch=0,EE,201EB9F4,extended,00000000
+
+patch=0,EE,20104694,extended,0100882D
+
+patch=0,EE,201A7BF8,extended,24460001
+
+patch=0,EE,203501C8,extended,0C03FFF8
+patch=0,EE,203501CC,extended,A2110174
+
+patch=0,EE,200FFFE0,extended,241B001E
+patch=0,EE,200FFFE4,extended,A39BD408
+patch=0,EE,200FFFE8,extended,03E00008
+patch=0,EE,200FFFEC,extended,7BB00120
+
+patch=0,EE,20350144,extended,241B003C
+patch=0,EE,2035014C,extended,A39BD408
+
+//Combo button  R3=30fps - L3=60fps in gameplay
+patch=1,EE,D04486C2,extended,FFFD //codeblock no for console patch (ps4 use in code memory patch)
+patch=1,EE,00409BF8,extended,3C
+patch=1,EE,D04486C2,extended,FFFB
+patch=1,EE,00409BF8,extended,1E
