@@ -1,5 +1,5 @@
 --gametitle=Hokuto no Ken Shinpan no Sousousei Kengou Retsuden (Japan) CRC-0x9E8F0454 SLPM_666.60
---comment= PS4 port Native 480p sdtv mode + extend 640x480 v3 by felixthecat1970
+--comment= PS4 port Native 480p sdtv mode + extend 640x480 v4 by felixthecat1970
 
 apiRequest(2.0)	-- request version 0.1 API. Calling apiRequest() is mandatory.
 
@@ -7,24 +7,25 @@ local eeObj = getEEObject()
 local emuObj = getEmuObject()
 local gsObj	= getGsObject()
 
-local lightDef0 = {153, 0, 0} --colors decimal p1
-local lightDef1 = {0, 0, 153} --colors decimal p2 *untested
+local lightDef0 = {153, 0, 0}
+local lightDef1 = {0, 0, 153}
 
 emuObj.PadSetLightBar(0, lightDef0, 1, lightDef1)
 
---//480p sdtv mode + 640x480 --image patched
+--//Native 480p sdtv mode + 640x480
 
 local options = function()
 
-eeObj.WriteMem32(0x00292720,0xA38286E8) --//enable native code sdtv 480p
-eeObj.WriteMem32(0x002ACA50,0x24020000) --//disable antialias by default
-eeObj.WriteMem32(0x002B3E04,0xA040D586) --//options disable antialias, is not necessary anymore and causes g. bug
+eeObj.WriteMem32(0x20292720,0xA38286E8)
+eeObj.WriteMem32(0x202ACA50,0x0000102D)
+eeObj.WriteMem32(0x202B3EB8,0x0000102D)
+eeObj.WriteMem32(0x202B4068,0x0000102D)
+eeObj.WriteMem32(0x002B3D38,0x24060000)
 
 end
-
 emuObj.AddVsyncHook(options)
 
---Combo button change bilinear L3=OFF R3=ON
+--soft filter L3=OFF R3=ON
 
 local CheckInputs = function()
 
@@ -53,5 +54,4 @@ if (R3 ~= 0) then
      gsObj.SetUpscaleMode("gpu")
 	end
 end
-
 emuObj.AddVsyncHook(CheckInputs)
