@@ -1,6 +1,0 @@
-#USE kof98 emu files
---gs-progressive=1
---gs-use-deferred-l2h=0
---hid-pad=1
---gs-uprender=none
---gs-upscale=point
