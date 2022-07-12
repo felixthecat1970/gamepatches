@@ -1,0 +1,8 @@
+#USE kof98 emu files
+--gs-progressive=1
+--gs-use-deferred-l2h=0
+--hid-pad=1
+--gs-aspect-ratio=0.75
+--gs-uprender=none
+--gs-upscale=point
+--host-display-mode=4:3

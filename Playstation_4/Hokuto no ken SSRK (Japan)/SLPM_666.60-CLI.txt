@@ -1,0 +1,10 @@
+#USE Orochi-emu
+#still have some click noise in options > sound > bgm play or cutscenes need more debugg
+--gs-progressive=1
+--hid-pad=1
+--gs-aspect-ratio=0.75
+--host-audio-latency=3
+--cdvd-sector-read-cycles=5000
+--gs-uprender=none
+--gs-upscale=point
+--host-display-mode=4:3
