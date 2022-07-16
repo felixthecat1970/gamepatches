@@ -1,0 +1,38 @@
+gametitle=Shinobido - Way of the Ninja (Europe) (En,Fr,De,Es,It) SCES_539.31;1) Game CRC = 0x96CE136B
+comment=Unlock progressive mode scan + 50fps + Qol fixes v2 by Felixthecat1970
+
+//50fps code hit hard ps2 EE (cpu) framedrops will happen intesive areas
+//recomended PCSX2 setup for minimize framedrops: Speedhacks > MTVU : ON
+//EE Cyclerate > 1 or 2 (unstability can happen but test works ok) disable if find bugs or crashes
+//vulkan api seems to work better but can be relative any PC setup (test) other backends
+
+patch=0,EE,001082A8,extended,24040001
+patch=0,EE,203923A8,extended,0C03FFEC
+patch=0,EE,203923AC,extended,00000000
+patch=0,EE,203911E0,extended,0C03FFEC
+patch=0,EE,203911E4,extended,00000000
+patch=0,EE,200FFFB0,extended,14030007
+patch=0,EE,200FFFB4,extended,241B0001
+patch=0,EE,200FFFB8,extended,A3829628
+patch=0,EE,200FFFBC,extended,341B0002
+patch=0,EE,200FFFC0,extended,A39B97B0
+patch=0,EE,200FFFC4,extended,03E00008
+patch=0,EE,200FFFC8,extended,9222000D
+patch=0,EE,200FFFCC,extended,00000000
+patch=0,EE,200FFFD0,extended,A3809628
+patch=0,EE,200FFFD4,extended,A39B97B0
+patch=0,EE,200FFFD8,extended,03E00008
+patch=0,EE,200FFFDC,extended,24020001
+patch=0,EE,2032693C,extended,00000000
+patch=0,EE,203B26BC,extended,A0830009
+patch=0,EE,203B26EC,extended,A0830011
+patch=0,EE,203B26CC,extended,A083000D
+patch=0,EE,204502F0,extended,00000000
+patch=0,EE,10450C60,extended,254A0000
+patch=0,EE,10450CE0,extended,24840000
+patch=0,EE,10450BF0,extended,640F0000
+
+patch=1,EE,D0656A88,extended,0200
+patch=1,EE,00625F20,extended,02
+patch=1,EE,D0656A88,extended,0204 
+patch=1,EE,00625F20,extended,01

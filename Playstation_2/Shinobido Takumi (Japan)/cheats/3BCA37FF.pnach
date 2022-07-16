@@ -1,0 +1,28 @@
+gametitle=Shinobidou - Takumi (Japan) SLPM_663.58;1) Game CRC = 0x3BCA37FF
+comment=Unlock progressive mode scan + 60fps + Qol fixes by Felixthecat1970
+
+//60fps code hit hard ps2 EE (cpu) framedrops will happen in intesive areas
+//recomended PCSX2 setup for minimize framedrops: Speedhacks > MTVU : ON
+//EE Cyclerate > 1 or 2 (unstability can happen but test works ok) disable if bugs or crashes
+//vulkan api seems to work better but can be relative any PC setup (test) other backends
+
+patch=0,EE,001081B8,extended,24040001
+patch=0,EE,202A3B8C,extended,00000000
+patch=0,EE,202FE6DC,extended,A0830009
+patch=0,EE,202FE6E8,extended,A080000C
+patch=0,EE,1047F8F8,extended,00000200
+patch=0,EE,1047F8FC,extended,000001C0
+patch=0,EE,1038FE30,extended,240201C0
+patch=1,EE,10568570,extended,00000001
+
+patch=1,EE,D0585748,extended,0200
+patch=1,EE,005690E8,extended,02
+patch=1,EE,D0585748,extended,0204
+patch=1,EE,005690E8,extended,01
+
+patch=1,EE,E0049400,extended,00594410
+patch=1,EE,00594408,extended,01
+patch=1,EE,10594410,extended,98E4
+patch=1,EE,00594430,extended,01
+patch=1,EE,10594438,extended,98E4
+
