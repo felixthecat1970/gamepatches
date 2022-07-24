@@ -1,0 +1,15 @@
+gametitle=Shin Megami Tensei: Persona 3 FES SLES_553.54;1)
+comment=Unlock progressive scan mode - 60hz instead 50hz by felixthecat1970
+
+//in PCSX2 disable deinterleacing to (none) or screen will be stretch VER+
+//For: (can work other patched images if executable is not heavely edited)
+//Clean Image dump (redump.org hash verified) Game CRC = 0xF64A6AE5
+//Patch Translation (SPA 1.1) Game CRC = 0xE168844E
+
+patch=0,EE,00199250,extended,24040057
+patch=0,EE,004FB6C0,extended,24840013
+patch=0,EE,107811BC,extended,00000200
+patch=0,EE,104E2EAC,extended,24020200
+patch=0,EE,2019EA98,extended,03601020
+patch=0,EE,2019EAA4,extended,0000D82D
+patch=0,EE,2019EAB8,extended,241B0001
