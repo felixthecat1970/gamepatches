@@ -1,0 +1,14 @@
+gametitle=Virtua Fighter 4 - Evolution (Japan) SLPM-65270 CRC=AB01411F
+comment=rework codes v2 native progressive scan + fullframe display by felixthecat1970
+
+patch=1,EE,202F827C,extended,0000182D
+patch=1,EE,004B5D80,extended,00000050
+patch=1,EE,202F7F14,extended,00A32825
+patch=1,EE,202F7FB8,extended,00A32825
+patch=1,EE,102F8B08,extended,2484013A
+
+// 16:9 Widescreen hack by ElHecht (NTSC-J by Arapapa) - widescreen archive
+patch=0,EE,202FB184,extended,3C194455 // 3c034420 hor fov
+patch=0,EE,202FB18C,extended,37395555 // 44830800 hor fov
+patch=0,EE,202FB1A4,extended,44990800 // 00000000
+patch=0,EE,20214918,extended,3C024456 // 3c024420 renderfix

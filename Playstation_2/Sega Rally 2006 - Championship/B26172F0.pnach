@@ -1,0 +1,13 @@
+gametitle=Sega Rally 2006 (Japan) SLPM_662.12;1) Game CRC = 0xB26172F0
+comment=reworked code enable full frame mode by felixthecat1970
+
+// Widescreen Hack by VIRGIN KLM
+
+patch=0,EE,1015AB9C,extended,240601C0
+patch=0,EE,10161338,extended,240401C0
+patch=0,EE,10161368,extended,240401C0
+patch=0,EE,20383AF8,extended,3FC71C71
+patch=0,EE,20356EA0,extended,3FC71C71
+patch=0,EE,20356EC0,extended,3FC71C71
+patch=0,EE,2038445C,extended,00000001
+patch=0,EE,20383C3C,extended,3FC00000
