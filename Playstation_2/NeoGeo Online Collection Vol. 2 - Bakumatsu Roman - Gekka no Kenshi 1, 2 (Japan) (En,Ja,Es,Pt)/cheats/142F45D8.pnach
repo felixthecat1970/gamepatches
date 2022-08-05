@@ -1,0 +1,13 @@
+gametitle= NeoGeo Online Collection Vol.2 Bakumatsu Roman Gekka no Kenshi 1-2 SLPS_255.03 Game CRC 142F45D8
+comment=test native 320x240 - not bilinear - progressive scan mode - no logos v2 by felixthecat1970
+
+//missing corrrection screen pixel
+//need hw 2x ,pcsx2 bug near not applied sw or hw 1x
+//teory should not work in consoles yet, tiny screen in consoles
+
+patch=0,EE,20100DB4,extended,0000282D
+patch=0,EE,00100310,extended,240F0000
+patch=0,EE,20100314,extended,160F0008
+patch=1,EE,E00282F0,extended,01FFEF20
+patch=1,EE,2013D9F8,extended,0000282D
+patch=1,EE,0013D9E8,extended,24060050
