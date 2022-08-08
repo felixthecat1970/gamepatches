@@ -1,0 +1,6 @@
+gametitle=Virtua Cop Rebirth (Japan) SLPM_622.05;1) Game CRC = 0xA1AA9D67
+comment=enable progressive 240p test by felixthecat1970
+
+//00198278 scegssyncv
+//call 240p mode
+patch=0,EE,20100884,extended,24040200

@@ -1,0 +1,7 @@
+gametitle=NeoGeo Online Collection Vol. 6 - Garou Densetsu Battle Archives 2 SLPS_256.98;1) Game CRC = 0x5192FAD0
+comment=No logo - intro + progressive 240p test by felixthecat1970
+
+patch=0,EE,201018F0,extended,0000202D
+patch=1,EE,E0025270,extended,01FFEF20
+patch=1,EE,201066E8,extended,0000282D
+patch=1,EE,001066EC,extended,00000050

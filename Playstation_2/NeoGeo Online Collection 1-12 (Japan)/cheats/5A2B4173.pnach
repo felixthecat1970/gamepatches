@@ -1,0 +1,12 @@
+gametitle=NeoGeo Online Collection Vol. 8 - Fuuun Super Combo (Japan) (En,Ja,Es,Pt) SLPS_257.81;1) Game CRC = 0x5A2B4173
+comment=No logo - intro + progressive 240p test by felixthecat1970
+
+patch=1,EE,E0033A70,extended,01FFEF20
+patch=1,EE,20100CEC,extended,0000282D
+patch=1,EE,201013C0,extended,00000000
+patch=1,EE,201013CC,extended,00000000
+
+patch=1,EE,E003E1F0,extended,01FFEF20
+patch=1,EE,20107610,extended,0000282D
+patch=1,EE,00107614,extended,00000050
+patch=1,EE,201076DC,extended,0000482D

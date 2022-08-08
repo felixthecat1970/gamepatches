@@ -1,0 +1,6 @@
+gametitle= NeoGeo Online Collection Vol.2 The King of figthers Orochi SLPS_256.05;1) Game CRC = 0x619E610B
+comment=No intro + progressive 240p test by felixthecat1970
+
+patch=0,EE,00139108,extended,24050000
+patch=0,EE,00109CF4,extended,24050000
+patch=0,EE,2011A904,extended,11CF000C

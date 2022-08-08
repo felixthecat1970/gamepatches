@@ -1,0 +1,17 @@
+gametitle=NeoGeo Online Collection Vol. 7 - The King of Fighters - Nests Hen (Japan) (En,Ja,Es,Pt) SLPS_256.61;1) Game CRC = 0x333700CC
+comment=No logo - intro + progressive 240p test by felixthecat1970
+
+
+patch=1,EE,E009D470,extended,01FFEF20
+patch=1,EE,202EDFC4,extended,00000000
+patch=1,EE,202EDB1C,extended,00000000
+patch=1,EE,0030D950,extended,24040050
+patch=1,EE,0030DB84,extended,24030050
+patch=1,EE,2030D940,extended,10000004
+patch=1,EE,0030DBA0,extended,24030002
+patch=1,EE,20105AFC,extended,0000282D
+patch=1,EE,2030DF4C,extended,00000000
+patch=1,EE,2030DFE8,extended,00000000
+
+patch=1,EE,E0010022,extended,0010011C
+patch=1,EE,2010098C,extended,0000282D

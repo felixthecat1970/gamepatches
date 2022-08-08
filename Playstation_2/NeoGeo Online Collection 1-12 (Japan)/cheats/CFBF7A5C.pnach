@@ -1,0 +1,10 @@
+gametitle=NeoGeo Online Collection Vol. 11 - Sunsoft Collection (Japan) SLPS_258.49;1) Game CRC = 0xCFBF7A5C
+comment=no intro - logos + progressive scan test by felixthecat1970
+
+patch=1,EE,203410A4,extended,10600015
+patch=1,EE,201018AC,extended,0000282D
+patch=1,EE,00371EB0,extended,24060050
+patch=1,EE,103720FC,extended,3C020083
+patch=1,EE,103720F8,extended,3444F4FF
+patch=1,EE,10372104,extended,34443134
+patch=1,EE,1037210C,extended,34423134
