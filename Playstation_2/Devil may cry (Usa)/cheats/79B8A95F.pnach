@@ -1,0 +1,53 @@
+gametitle=Devil May Cry (USA) SLUS_202.16;1) Game CRC = 0x79B8A95F
+comment=Enhacements QoL v3 by Felxithgecat1970
+
+patch=0,EE,2010338C,extended,3C013F40
+patch=0,EE,20103390,extended,44810000
+patch=0,EE,20103398,extended,4600C602
+patch=0,EE,00149308,extended,00000000 //screen blur only removal
+patch=0,EE,2015B110,extended,0000182D //F. cinema_scope off
+
+patch=0,EE,2015B504,extended,30420000 //nopi
+patch=1,EE,D0765572,extended,01
+patch=1,EE,2015B504,extended,30420001
+patch=1,EE,D0765572,extended,00
+patch=1,EE,2015B504,extended,30420000
+
+//No Hud
+patch=1,EE,E0020004,extended,00765572 //R3 Disable Hud
+patch=1,EE,00752471,extended,00
+patch=1,EE,007524A9,extended,00
+
+patch=1,EE,E0020200,extended,00765572 //R2 Enable
+patch=1,EE,00752471,extended,FF
+patch=1,EE,007524A9,extended,FF
+
+patch=1,EE,E0020219,extended,007524A2
+patch=1,EE,00752471,extended,FF
+patch=1,EE,007524A9,extended,FF
+
+//Controller buttons to JAPAN /HD ports Layout
+patch=0,EE,2010C184,extended,0803F414
+patch=0,EE,200FD050,extended,00C0C821
+patch=0,EE,200FD054,extended,08043063
+patch=0,EE,200FD058,extended,24030070
+patch=0,EE,2010C1F4,extended,0803F417
+patch=0,EE,200FD05C,extended,87240002
+patch=0,EE,200FD060,extended,30858FFF
+patch=0,EE,200FD064,extended,9326000C
+patch=0,EE,200FD068,extended,9327000E
+patch=0,EE,200FD06C,extended,9328000D
+patch=0,EE,200FD070,extended,30811000
+patch=0,EE,200FD074,extended,34A32000
+patch=0,EE,200FD078,extended,0061280B
+patch=0,EE,200FD07C,extended,A326000D
+patch=0,EE,200FD080,extended,30814000
+patch=0,EE,200FD084,extended,34A31000
+patch=0,EE,200FD088,extended,0061280B
+patch=0,EE,200FD08C,extended,A327000C
+patch=0,EE,200FD090,extended,30812000
+patch=0,EE,200FD094,extended,34A34000
+patch=0,EE,200FD098,extended,0061280B
+patch=0,EE,200FD09C,extended,A328000E
+patch=0,EE,200FD0A0,extended,03E00008
+patch=0,EE,200FD0A4,extended,A7250002
