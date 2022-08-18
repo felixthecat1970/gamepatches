@@ -1,0 +1,13 @@
+gametitle=Street Fighter Anniversary Collection (USA) SLUS_209.49;1) Game CRC = 0x7E078FD2
+comment=test extend hor+ res - less blurry image by felixthecat1970
+
+//extendd horizontal res 512>640 - sf3 side
+patch=1,EE,E00377F0,extended,01FFEF20
+patch=1,EE,20361770,extended,0000402D
+patch=1,EE,20362EEC,extended,FC2500A0
+patch=1,EE,20362EF0,extended,080D8C20
+
+patch=1,EE,E002D9F0,extended,01FFEF20
+patch=1,EE,2010D484,extended,FC2300A0
+patch=1,EE,2010D488,extended,0C043576
+
