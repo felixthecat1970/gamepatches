@@ -1,0 +1,13 @@
+gametitle=Tensei - Swords of Destiny (Japan) SLPS_254.59;1) Game CRC = 0x6ECC268C
+comment=Progressive scan - 60fps test by felixthecat1970
+
+//default game options reverted can be changed in game menu
+//fps unlock alter jump speed ?¿ need more testing 
+
+patch=0,EE,00207038,extended,24030057
+patch=0,EE,10420F98,extended,00000200
+patch=0,EE,10420F9C,extended,000001C0 
+patch=0,EE,1017771C,extended,240201C0
+patch=0,EE,20177E98,extended,0000382D
+patch=0,EE,0020A118,extended,2403003C
+patch=0,EE,0020407C,extended,3C023F00

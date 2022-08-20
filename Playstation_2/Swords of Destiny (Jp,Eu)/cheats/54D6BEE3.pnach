@@ -1,0 +1,19 @@
+gametitle=Swords of Destiny (Europe) (En,Fr,Es) SLES_536.99;1) Game CRC = 0x54D6BEE3
+comment=Enable NTSC native mode or Progressive scan - 60fps test by felixthecat1970
+
+//default game options reverted can be changed in game menu
+//fps unlock alter jump speed ?¿ need more testing 
+
+//unlock ntsc v-mode - speed ok, image size ok - intro logos - epilogue flicker
+patch=0,EE,00207A34,extended,24020000
+
+//progressive scan-mode + unlock fps ***disable codeblock for only NTSC-30fps mode
+patch=0,EE,00206FD8,extended,24030057
+patch=0,EE,1041F698,extended,00000200
+patch=0,EE,1041F69C,extended,000001C0 
+patch=0,EE,1017775C,extended,240201C0
+patch=0,EE,20177ED8,extended,0000382D
+patch=0,EE,0020A018,extended,2403003C
+patch=0,EE,002040BC,extended,3C023F00
+
+//002D7880 function related to jump
