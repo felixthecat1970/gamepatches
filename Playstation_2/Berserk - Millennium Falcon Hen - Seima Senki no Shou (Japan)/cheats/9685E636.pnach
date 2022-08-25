@@ -1,0 +1,45 @@
+gametitle=Berserk - Millennium Falcon Hen - Seima Senki no Shou (Japan) / (wesker90 translation 1.1) SLPM_656.88;1) Game CRC = 0x9685E636
+comment=Enhancement test v3 By felixthecat1970
+
+//need preload framedata in PCSX2
+//HW+2x mode workaround fix (PCSX2 bug hud)
+//fps unlock speedup enemies - combo counter ***missing speed corrections
+//fps unlock combo button use when game is paused or random freeze chara can happen
+
+patch=0,EE,2019213C,extended,AE070014
+patch=0,EE,20192E00,extended,AE0C0014
+patch=0,EE,101F358C,extended,240601C0
+patch=0,EE,201F359C,extended,0000582D
+patch=0,EE,20192814,extended,0000882D
+patch=0,EE,20191C90,extended,0000182D
+patch=0,EE,00246490,extended,24050081
+patch=0,EE,0027E2D0,extended,24050081
+patch=0,EE,0027DE30,extended,24050081
+patch=0,EE,200FFFCC,extended,17630008
+patch=0,EE,200FFFD0,extended,00000000
+patch=0,EE,200FFFD4,extended,A4220088
+patch=0,EE,200FFFD8,extended,A42200B0
+patch=0,EE,200FFFDC,extended,241B1000
+patch=0,EE,200FFFE0,extended,A43B0090
+patch=0,EE,200FFFE4,extended,A43B00B8
+patch=0,EE,200FFFE8,extended,03E00008
+patch=0,EE,200FFFEC,extended,3C010001
+patch=0,EE,200FFFF0,extended,A42300B8
+patch=0,EE,200FFFF4,extended,03E00008
+patch=0,EE,200FFFF8,extended,3C010001
+patch=0,EE,20192678,extended,0C03FFF3
+patch=0,EE,2019267C,extended,241B1081
+
+//60fps Manual L3=On R3=Off (r.area asasega) - registers area disabled missing speed corrections
+patch=1,EE,D03DC4C2,extended,FFFD
+patch=1,EE,003B408C,extended,01
+patch=1,EE,D03DC4C2,extended,FFFB
+patch=1,EE,003B408C,extended,00
+
+//wide new - 0C064248 jal call
+patch=0,EE,10239AAC,extended,3C033F26 //3F4C new game
+patch=0,EE,10239AB4,extended,34636666 //CCCD
+patch=0,EE,1023979C,extended,3C033F26 //3F4C widescreen gameplay HOR-
+patch=0,EE,102397A4,extended,34636666 //CCCD
+patch=0,EE,10239738,extended,3C033F26 //3F4C bosses hor+
+patch=0,EE,10239740,extended,34636666 //CCCD
