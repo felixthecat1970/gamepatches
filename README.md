@@ -1,15 +1,8 @@
-!!!still lot files scattered on my hdd, here some more organized!!!
+!!!still lot files scattered on my hdd, here some more organized and updated!!!
 
 # About gamepatches:
-you will find here codes enhacemens hacks etc i did across my life an last years, for games consoles from generations ps2, ps3, wii, ps1 psp etc; for pc emulation, console emulation.
-
-PLAYSTATION 2 GAMES TESTING SETUP:
---- EMULATION IN PC WITH PCSX2 / PCSXQT
---- HARDWARE AVAILABLE:
-    PS3 SLIM (PS2 SOFTWARE EMULATION ONLY)
-	PS3 FAT "STORE" TEST UNIT (PS2 HARDWARE EMULATION COMPACTIBLE) *(UNAVAILABLE STILL NOT HACKED) 
-  
+you will find here, codes, enhacemens, Reverse engineering hacks, others i did across my life and years, for games from consoles ps2, ps3, wii, ps1 psp, also pc emulation, console emulation.
 
 # About this:
-disclairmer, this are only test, speculation, reasonings etc about code hacking, nothing i said here, forums, etc can be taken seriusly or truth about so no guarantees.
-this repostory main reasoning is for preserve bunch of files projects, files i did, long hours of study, time learning etc not to be lost in my drive and can be used, test or enhaced for people with "nostalgic" feelling when playing this titles in modern pc emulators or (modded) consoles.
+This is my findings, ideas, codes, information, experiments, deduction in a empirical manner, nothing is granted to work perfect or is correct information about code reverse enginnering nothing i said here, forums, etc can be taken seriusly or as "truth" so no guarantees will work ok.
+this repostory main reasoning is for preserve bunch of files projects i did or update, long hours of study, time learning for no to be lost in my drive and can be used, test or enhaced for people with "nostalgic" feelling when playing this titles in modern pc emulators or (modded) consoles.
