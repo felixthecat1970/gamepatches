@@ -1,15 +1,12 @@
 gametitle=Samurai Spirits Rokuban Shoubu SLPS_258.39;1) Game CRC = 0x25BFA0C4
 comment=test frame mode for crt by felixthecat1970
 
-
 //test frame mode - menu only games are full frame
-patch=1,EE,E0060A70,extended,01FFEF20 //< not for iso patch 
+patch=1,EE,E0040A70,extended,01FFEF20 //< not for iso patch 
 patch=1,EE,20357E38,extended,10600015 //patch to select.elf or similar
 patch=1,EE,2035F7B0,extended,0000282D
 patch=1,EE,20100608,extended,0000282D
-patch=1,EE,20100618,extended,24070001
-patch=1,EE,203B8430,extended,00000000
-patch=1,EE,203B8434,extended,00000000
+patch=1,EE,103B83FC,extended,3442227C
 
 //Samurai S6 240p (for ISO PATCH root\S6\ NO1.ELF *NO1_E.ELF is not used, International Executable)
 patch=1,EE,E0020051,extended,0010011C // < no for ISO patch
