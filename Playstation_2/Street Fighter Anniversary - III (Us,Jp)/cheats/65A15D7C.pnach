@@ -1,8 +1,8 @@
 gametitle=Street Fighter III - 3rd Strike SLPM_656.21;1) Game CRC = 0x65A15D7C
-comment=test extend hor+ res - less blurry image by felixthecat1970
+comment=640x448 mode - less blurry image v2 by felixthecat1970
 
-//extendd horizontal res 512>640 - less blurry frame
+//extend horizontal res 512>640 - less blurry frame
 patch=0,EE,2038458C,extended,0000402D
-patch=0,EE,20383068,extended,FCA600A0
-patch=0,EE,2038306C,extended,0C0E0C7C
+patch=0,EE,20383380,extended,AC46D558
+
 
