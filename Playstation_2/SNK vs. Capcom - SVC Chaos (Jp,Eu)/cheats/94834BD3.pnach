@@ -1,4 +1,6 @@
 gametitle= SLPS_253.16;1) Game CRC = 0x94834BD3
 comment=autoboot progressive scan mode by felixthecat1970
 
+//use sw mode in PCSX2
+
 patch=0,EE,202E8C20,extended,24025000
