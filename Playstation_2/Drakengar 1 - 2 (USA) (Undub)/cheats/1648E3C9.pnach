@@ -1,0 +1,19 @@
+gametitle=Drakengard 2 (USA) / (Undub) SLUS_213.73;1) Game CRC = 0x1648E3C9
+comment=Full frame mode - extended to 640x480 by Felixthecat1970
+
+//for PCSX2 emulator only - HW untested but it wil give black screen - bugs (missing lot of code corrections)
+patch=0,EE,201BE224,extended,AC801730
+patch=0,EE,201A0444,extended,0000382D
+patch=0,EE,101E1040,extended,240401E0
+patch=0,EE,201E1064,extended,0000502D
+patch=0,EE,201BF79C,extended,2523FFFF
+patch=0,EE,201BE4D8,extended,AE111718
+patch=0,EE,2019B4F4,extended,00000000
+patch=0,EE,2019B834,extended,0000502D
+patch=0,EE,201BF7A8,extended,0000202D
+patch=0,EE,0019B840,extended,24070002
+
+//Widescreen hack by ElHecht
+patch=1,EE,204cf458,extended,3FE38E32 // 3Faaaaaa
+patch=1,EE,20560f94,extended,44550000 // 44200000
+
