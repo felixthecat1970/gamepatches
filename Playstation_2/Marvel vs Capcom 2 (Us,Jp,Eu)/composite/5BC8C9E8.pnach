@@ -1,0 +1,6 @@
+gametitle=Marvel vs. Capcom 2 - New Age of Heroes (Japan) SLPM_622.27;1) Game CRC = 0x5BC8C9E8
+comment=Enable full frame mode + native progressive scan by felixthecat1970
+
+patch=0,EE,003EE1D8,extended,24020002
+patch=0,EE,203EE1DC,extended,AC22F3C0
+patch=0,EE,203EE1EC,extended,AC20F3DC
