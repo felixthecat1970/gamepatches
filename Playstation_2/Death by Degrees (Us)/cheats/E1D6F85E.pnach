@@ -1,0 +1,29 @@
+gametitle=Death by Degrees (USA) SLUS_209.34;1) Game CRC = 0xE1D6F85E
+comment=Enable native progressive scan mode by felixthecat1970
+
+patch=0,EE,00450F9C,extended,24060020
+patch=0,EE,201F8F54,extended,24060020
+patch=0,EE,201F8F70,extended,0210402D
+patch=0,EE,001F8FA8,extended,24060020
+patch=0,EE,001F8F88,extended,24060020
+patch=0,EE,003BD7EC,extended,24040001
+patch=0,EE,10188250,extended,3C023FE3
+patch=0,EE,10188258,extended,3443BBD6
+patch=0,EE,1018606C,extended,3C023FE3
+patch=0,EE,10186070,extended,3443BBD6
+patch=0,EE,101F5C88,extended,3C023FE3
+patch=0,EE,101F5C90,extended,3442BBD6
+
+patch=0,EE,1032B0A8,extended,3C023F80 // widescreen by ElHecht
+patch=1,EE,205D9054,extended,3FAAAAAA
+patch=0,EE,001AF7E4,extended,3C030083
+patch=0,EE,101AF7E8,extended,3463313E
+patch=0,EE,101AF6F0,extended,64630140
+patch=0,EE,001AF710,extended,64630033
+
+patch=0,EE,1032B0A8,extended,3F80 //black border's fix by nemesis2000
+patch=0,EE,001F8FA8,extended,24060000
+patch=0,EE,001F8F88,extended,24060000
+patch=0,EE,201F8F54,extended,24060000
+patch=0,EE,201F8F70,extended,0210402D
+patch=0,EE,003BD7EC,extended,24040001
