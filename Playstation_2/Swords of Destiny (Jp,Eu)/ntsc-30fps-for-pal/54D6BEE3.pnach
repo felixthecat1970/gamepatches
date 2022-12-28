@@ -1,5 +1,5 @@
 gametitle=Swords of Destiny (Europe) (En,Fr,Es) SLES_536.99;1) Game CRC = 0x54D6BEE3
-comment=Enable NTSC native mode or Progressive scan - 60fps v2 by felixthecat1970
+comment=Enable NTSC native mode v2 by felixthecat1970
 
 //initial test code boot in spanish only, fixed now change lang in ps2 bios before boot
 //default game options reverted can be changed in game menu
@@ -8,12 +8,5 @@ comment=Enable NTSC native mode or Progressive scan - 60fps v2 by felixthecat197
 
 //unlock ntsc v-mode - speed ok, image size ok 
 patch=0,EE,2020403C,extended,0C081E88
-
-//p-mode corrected call
-patch=0,EE,00206FD8,extended,24030057
-patch=0,EE,1041F698,extended,00000200
-patch=0,EE,1041F69C,extended,000001C0
-patch=0,EE,20177D4C,extended,241B0050
-patch=0,EE,20177E48,extended,A05B0032
 
 //002D7880 function related to jump
