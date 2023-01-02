@@ -1,0 +1,20 @@
+gametitle=Deus Ex (German) SLES_508.05;1) Game CRC = 0x3AC738AA, iso sha-1 bccf3e340ceb5194c292d05217158ba60b4a929
+comment=fps unlock + call ntsc video mode v1 by felixthecat1970
+
+//-subtitles missing some video size registers 
+//-heavy in gpu framerate drops
+//-some 2d assets out screen
+
+//fps unlock
+patch=1,EE,E0010002,extended,0030F8B4
+patch=1,EE,0030F8B4,extended,01
+
+//ntsc engine
+patch=1,EE,E0010001,extended,003C6D10
+patch=1,EE,003C6D10,extended,00
+
+//ntsc fmv 
+patch=1,EE,E0030003,extended,00100540
+patch=1,EE,10100560,extended,01E0
+patch=1,EE,1010057C,extended,00C8
+patch=1,EE,00100540,extended,02
