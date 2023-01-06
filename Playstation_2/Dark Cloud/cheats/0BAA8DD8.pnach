@@ -1,0 +1,5 @@
+gametitle=Dark Cloud (Europe) (En,Fr,De,Es,It) Game CRC = 0x0BAA8DD8
+comment=ntsc video mode by felixthecat1970
+
+//Ntsc video mode
+patch=0,EE,0012C338,extended,24060002 //3
