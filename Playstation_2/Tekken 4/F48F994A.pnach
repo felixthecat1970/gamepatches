@@ -1,0 +1,6 @@
+gametitle=Tekken 4 (Europe) (En,Fr,De,Es,It) SCES_508.78;1) Game CRC = 0xF48F994A
+comment=Autoboot in Progressive scan mode by felixthecat1970
+
+patch=0,EE,001E2254,extended,24020002
+patch=0,EE,0022B138,extended,24050006
+patch=0,EE,001EDC24,extended,24020009
