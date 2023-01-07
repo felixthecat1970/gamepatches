@@ -1,0 +1,11 @@
+gametitle=Tekken Tag Tournament (USA) (v2.00) SLUS_200.01;1) Game CRC = 0x67454C1E
+comment=Framemode test v1 by felixthecat1970
+
+//gameplay only, FMV still field rendered mode (maybe fail in consoles patch due altered register)
+
+patch=0,EE,20398960,extended,0000382D
+patch=0,EE,10398AE0,extended,240701C0
+patch=0,EE,20398AF0,extended,0000502D
+patch=0,EE,10398B10,extended,240701C0
+patch=0,EE,10398B38,extended,240701C0
+patch=0,EE,20398B48,extended,0000502D

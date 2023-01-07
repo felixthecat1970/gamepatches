@@ -1,0 +1,14 @@
+gametitle=Tekken Tag Tournament (Europe) (En,Fr,De,Es,It) (v2.00) SCES_500.01;1) Game CRC = 0xD07E8F35
+comment=PAL to NTSC 60fps + framemode call v1 by felixthecat1970
+
+//gameplay only, FMV still field rendered mode (maybe fail / bug in consoles patch due altered register)
+
+patch=0,EE,003993C4,extended,24060002
+patch=0,EE,203993D0,extended,0000382D
+patch=0,EE,10399550,extended,240701C0
+patch=0,EE,20399560,extended,0000502D
+patch=0,EE,10399580,extended,240701C0
+patch=0,EE,103995A8,extended,240701C0
+patch=0,EE,203995B8,extended,0000502D
+patch=0,EE,1039D3E4,extended,240600E0
+patch=0,EE,1039DE30,extended,240700E0
