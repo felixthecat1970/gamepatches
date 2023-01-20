@@ -1,0 +1,20 @@
+gametitle=Resident Evil - Code - Veronica X (Europe) (En,Fr,De,Es) SLES_503.06;1) Game CRC = 0x6EA9DDA9
+comment=Enable progressive scan mode v1 test by felixthecat1970
+
+//v1
+patch=0,EE,002D25D4,extended,24060050
+patch=0,EE,202D25D0,extended,0000282D
+patch=0,EE,202D25E0,extended,00000000
+patch=0,EE,201002F4,extended,10A40029
+patch=0,EE,1010030C,extended,260202D0
+patch=0,EE,00100370,extended,26450023
+patch=0,EE,10100398,extended,64E30134
+patch=0,EE,202F3D60,extended,1443FFFA
+patch=0,EE,002D2678,extended,3C0A0002
+patch=0,EE,002D267C,extended,3C010082
+patch=0,EE,002D267C,extended,3C010082
+patch=0,EE,102D2680,extended,342C3000
+patch=0,EE,2029CBD0,extended,0000182D
+patch=0,EE,202D27CC,extended,0C0B49FD
+patch=0,EE,202D27D0,extended,00000000
+patch=0,EE,202D27FC,extended,00000000
