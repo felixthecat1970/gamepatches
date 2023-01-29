@@ -1,0 +1,49 @@
+gametitle=The X-Files: Resist or Serve (USA) SLUS_201.79;1) Game CRC = 0xE79C7749
+comment=60fps 3d logic adjust - less blurry beta-2 by Felixthecat1970
+
+//fixes doors bugs from beta1 codes
+
+patch=0,EE,20106F4C,extended,A3809700
+patch=0,EE,20106F88,extended,1440000D
+patch=0,EE,101BE328,extended,3C013F00
+patch=0,EE,20106DA4,extended,241B0001
+patch=0,EE,20106DB4,extended,A39B9700
+patch=0,EE,10326B82,extended,00003F00
+patch=0,EE,201C2A78,extended,24420000
+patch=0,EE,201C2B40,extended,24420000
+patch=0,EE,201C2AD0,extended,0000B82D
+patch=0,EE,201C2ADC,extended,00000000
+patch=0,EE,201C2B88,extended,00000000
+
+//3d logic adjust
+patch=0,EE,101BE328,extended,3C013F00
+patch=0,EE,1010C560,extended,3C014270
+patch=0,EE,101B40C0,extended,3C014270
+patch=0,EE,101B43DC,extended,3C014270
+
+//testing - disable if crash or bugs
+patch=0,EE,101380DC,extended,3C014270
+patch=0,EE,1013BB0C,extended,3C014270
+patch=0,EE,1013354C,extended,3C014270
+patch=0,EE,10133CC4,extended,3C014270
+patch=0,EE,10132F04,extended,3C014270
+patch=0,EE,101364B4,extended,3C014270
+patch=0,EE,1013565C,extended,3C014270
+patch=0,EE,101348DC,extended,3C014270
+patch=0,EE,10134914,extended,3C014270
+
+//testing need debug - disable if crash or bugs
+patch=0,EE,101BB964,extended,3C014270
+patch=0,EE,1013D8E0,extended,3C014270
+patch=0,EE,1013D5B0,extended,3C014270
+patch=0,EE,1013B428,extended,3C014270
+patch=0,EE,10134200,extended,3C014270
+patch=0,EE,10131834,extended,3C014270
+patch=0,EE,1012F1E4,extended,3C014270
+//testing need debug - disable if crash or bugs
+patch=0,EE,101BA9F4,extended,3C014270
+patch=0,EE,101BA964,extended,3C014270
+patch=0,EE,101B9F38,extended,3C014270
+patch=0,EE,101B483C,extended,3C014270
+patch=0,EE,101A1BD8,extended,3C014270
+patch=0,EE,101573EC,extended,3C014270
