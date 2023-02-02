@@ -32,18 +32,18 @@ patch=0,EE,1013565C,extended,3C014270
 patch=0,EE,101348DC,extended,3C014270
 patch=0,EE,10134914,extended,3C014270
 
-//testing need debug - disable if crash or bugs
-patch=0,EE,101BB964,extended,3C014270
-patch=0,EE,1013D8E0,extended,3C014270
-patch=0,EE,1013D5B0,extended,3C014270
-patch=0,EE,1013B428,extended,3C014270
-patch=0,EE,10134200,extended,3C014270
-patch=0,EE,10131834,extended,3C014270
-patch=0,EE,1012F1E4,extended,3C014270
-//testing need debug - disable if crash or bugs
-patch=0,EE,101BA9F4,extended,3C014270
-patch=0,EE,101BA964,extended,3C014270
-patch=0,EE,101B9F38,extended,3C014270
-patch=0,EE,101B483C,extended,3C014270
-patch=0,EE,101A1BD8,extended,3C014270
-patch=0,EE,101573EC,extended,3C014270
+////testing need debug - disable if crash or bugs
+//patch=0,EE,101BB964,extended,3C014270
+//patch=0,EE,1013D8E0,extended,3C014270
+//patch=0,EE,1013D5B0,extended,3C014270
+//patch=0,EE,1013B428,extended,3C014270
+//patch=0,EE,10134200,extended,3C014270
+//patch=0,EE,10131834,extended,3C014270
+//patch=0,EE,1012F1E4,extended,3C014270
+////testing need debug - disable if crash or bugs
+//patch=0,EE,101BA9F4,extended,3C014270
+//patch=0,EE,101BA964,extended,3C014270
+//patch=0,EE,101B9F38,extended,3C014270
+//patch=0,EE,101B483C,extended,3C014270
+//patch=0,EE,101A1BD8,extended,3C014270
+//patch=0,EE,101573EC,extended,3C014270
