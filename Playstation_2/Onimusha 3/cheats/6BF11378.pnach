@@ -1,0 +1,10 @@
+gametitle=Onimusha 3 (USA) / (Undub V2) SLUS_206.94;1) Game CRC = 0x6BF11378
+comment=rework codes - sharper image v2 by felixthecat1970
+
+//!!! use default PCSX2-QT options or use deinterlacing in "automatic" !!!
+//IN HW mode finetune missaligment effects x:200 y:200 or use special texture modes
+//enable round sprite half for menu lines fix (use withow above option)
+//Dof, other unknow effects codes removed PCSX2-QT now run effects withow performance hit
+
+patch=1,EE,E0010100,extended,00A28182
+patch=1,EE,10A28182,extended,0000

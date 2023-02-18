@@ -1,0 +1,73 @@
+gametitle=Onimusha 2 (Undub) SLUS_203.93;1) Game CRC = 0x5A1410AB
+comment=rework codes - sharper image v2 by felixthecat1970
+
+//!!! use default PCSX2-QT options or use deinterlacing in "automatic" !!!
+
+//sharp mode - less blurry image
+patch=0,EE,2014978C,extended,00021203 //disable blurry image
+
+////remove " // " for enable next code block
+////swap dpad - analog - still tank controls (ps2 c remap tool by pelvicthrustman)
+//patch=0,EE,20285FEC,extended,0803F414
+//patch=0,EE,200FD050,extended,00A0C821
+//patch=0,EE,200FD054,extended,080A17FD
+//patch=0,EE,200FD058,extended,24020330
+//patch=0,EE,202860B4,extended,0803F417
+//patch=0,EE,200FD05C,extended,87240000
+//patch=0,EE,200FD060,extended,3085FF0F
+//patch=0,EE,200FD064,extended,93260008
+//patch=0,EE,200FD068,extended,93270007
+//patch=0,EE,200FD06C,extended,93280009
+//patch=0,EE,200FD070,extended,93290006
+//patch=0,EE,200FD074,extended,932A0005
+//patch=0,EE,200FD078,extended,932B0004
+//patch=0,EE,200FD07C,extended,34A30010
+//patch=0,EE,200FD080,extended,2D410041
+//patch=0,EE,200FD084,extended,0061280A
+//patch=0,EE,200FD088,extended,3943007F
+//patch=0,EE,200FD08C,extended,00031840
+//patch=0,EE,200FD090,extended,2D41007F
+//patch=0,EE,200FD094,extended,0001180A
+//patch=0,EE,200FD098,extended,A3230008
+//patch=0,EE,200FD09C,extended,34A30080
+//patch=0,EE,200FD0A0,extended,2D610041
+//patch=0,EE,200FD0A4,extended,0061280A
+//patch=0,EE,200FD0A8,extended,3963007F
+//patch=0,EE,200FD0AC,extended,00031840
+//patch=0,EE,200FD0B0,extended,2D61007F
+//patch=0,EE,200FD0B4,extended,0001180A
+//patch=0,EE,200FD0B8,extended,A3230007
+//patch=0,EE,200FD0BC,extended,34A30040
+//patch=0,EE,200FD0C0,extended,2D4100BF
+//patch=0,EE,200FD0C4,extended,0061280B
+//patch=0,EE,200FD0C8,extended,2543FF80
+//patch=0,EE,200FD0CC,extended,00031840
+//patch=0,EE,200FD0D0,extended,2D410081
+//patch=0,EE,200FD0D4,extended,0001180B
+//patch=0,EE,200FD0D8,extended,A3230009
+//patch=0,EE,200FD0DC,extended,34A30020
+//patch=0,EE,200FD0E0,extended,2D6100BF
+//patch=0,EE,200FD0E4,extended,0061280B
+//patch=0,EE,200FD0E8,extended,2563FF80
+//patch=0,EE,200FD0EC,extended,00031840
+//patch=0,EE,200FD0F0,extended,2D610081
+//patch=0,EE,200FD0F4,extended,0001180B
+//patch=0,EE,200FD0F8,extended,A3230006
+//patch=0,EE,200FD0FC,extended,340A0080
+//patch=0,EE,200FD100,extended,340B0080
+//patch=0,EE,200FD104,extended,00060842
+//patch=0,EE,200FD108,extended,3821007F
+//patch=0,EE,200FD10C,extended,0026500B
+//patch=0,EE,200FD110,extended,00070842
+//patch=0,EE,200FD114,extended,3821007F
+//patch=0,EE,200FD118,extended,0027580B
+//patch=0,EE,200FD11C,extended,00080842
+//patch=0,EE,200FD120,extended,24230080
+//patch=0,EE,200FD124,extended,0068500B
+//patch=0,EE,200FD128,extended,00090842
+//patch=0,EE,200FD12C,extended,24230080
+//patch=0,EE,200FD130,extended,0069580B
+//patch=0,EE,200FD134,extended,A7250000
+//patch=0,EE,200FD138,extended,A32A0005
+//patch=0,EE,200FD13C,extended,03E00008
+//patch=0,EE,200FD140,extended,A32B0004
