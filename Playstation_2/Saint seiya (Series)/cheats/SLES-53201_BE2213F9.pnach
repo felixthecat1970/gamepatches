@@ -1,6 +1,6 @@
 //Saint Seiya - The Sanctuary (Europe) (En,Ja,Fr,De,Es,It) SLES_532.01;1) Game CRC = 0xBE2213F9
 author=felixthecat1970
-[patches\Native call NTSC mode + 60FPS
+[patches\Native call NTSC mode + 60FPS]
 description=Native call NTSC mode + 60FPS.
 patch=0,EE,203527E4,extended,0000182D
 patch=0,EE,10352760,extended,240201C0
