@@ -25,10 +25,6 @@ For hades series:
 
 Games tested with PCSX2 QT 64 emulator and hades series with PS3 BC-ps2 hardware compactible model.
 
-PS2 Progressive scan custom code list online
- 8 minute read
-Playstation 2 custom codes list wich enable progressive scan TV mode for NTSC / PAL for consoles and emulators.
-
 How to apply patches.
 
 1 - dump your game into .ISO (google is your friend)
