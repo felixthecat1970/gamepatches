@@ -8,7 +8,7 @@ PS2 Saint Seiya - The Sanctuary (Europe) (En,Ja,Fr,De,Es,It) SLES-53201 v2 (imag
 
 Saint seiya series on ps2 only released in japan and europe with their respective problems (japan only japanese for non japanese) and europe (only in blurry PAL 50hz/25fps tv mode and generic intro sound), so debugging executables couple months ago find the games has locked their video modes and languages, with this codes you can play European version in NTSC 60hz tv mode and framerate unlocked ( 60fps) but for people has the japanese version you can play in 4 languages, the languages files are hidden (or maybe unfinished) this codes unlock the languages and convert your japanese copy in multilanguage game with japanese intro and music.
 
-Use the pack:
+Use the pack: (due to bigfile restriction download from external fileserver)
 
 Saint Seiya - The Sanctuary (Europe)-patchCONSOLE (enable native NTSC mode, default to 30fps, intro changed to japanese version)
 
