@@ -1,0 +1,52 @@
+Created using xDelta3 Cross GUI 1.4.1 by dan0v, https://github.com/dan0v/xdelta3-cross-gui
+
+PS2 Saint Seiya - The Sanctuary (Europe) (En,Ja,Fr,De,Es,It) SLES-53201 v2 (image patch)
+
+(updated NOV 2023) 
+-make a easy patch image instead memory codes, 
+-change the european "generic cut intro" for japanese version have the original anime sound
+
+Saint seiya series on ps2 only released in japan and europe with their respective problems (japan only japanese for non japanese) and europe (only in blurry PAL 50hz/25fps tv mode and generic intro sound), so debugging executables couple months ago find the games has locked their video modes and languages, with this codes you can play European version in NTSC 60hz tv mode and framerate unlocked ( 60fps) but for people has the japanese version you can play in 4 languages, the languages files are hidden (or maybe unfinished) this codes unlock the languages and convert your japanese copy in multilanguage game with japanese intro and music.
+
+Use the pack:
+
+Saint Seiya - The Sanctuary (Europe)-patchCONSOLE (enable native NTSC mode, default to 30fps, intro changed to japanese version)
+
+Download: https://www.mediafire.com/file/1s9x1qgouxr06i8/Saint_Seiya_-_The_Sanctuary_%2528Europe%2529-patchCONSOLE.7z/file
+
+
+Saint Seiya - The Sanctuary (Europe)-patchPCSX2 (enable 60 fps, NTSC mode, intro changed to japanese version)
+
+Download: https://www.mediafire.com/file/l12lfpyu0113ozr/Saint_Seiya_-_The_Sanctuary_%2528Europe%2529-patchPCSX2.7z/file
+
+
+
+
+Disclaimer codes are not fully tested.
+more info https://felixthecat1970.github.io/gamepatches-blog/blog/ps2/ps2-saint-seiya-series/
+
+How to patch:
+verify your original ISO dump filehash (Redump verified)
+SHA-1 919baf4e53ed2838181d1ee9de88be9ef51ee8e7
+
+Rename your dump to:
+Saint Seiya - The Sanctuary (Europe) (En,Ja,Fr,De,Es,It)
+
+Windows:
+1. Copy your original files into the 'original' folder with their original file names
+2. Double click the 2.Apply Patch-Windows.bat file and patching will begin
+3. Once patching is complete you will find your newly patched files in the 'output' folder
+4. Enjoy
+
+Linux:
+1. Copy your original files into the 'original' folder with their original file names
+2. In terminal, type:` sh "2.Apply Patch-Linux.sh" `. Patching should start automatically
+2. Alternatively, if you're using a desktop environment, double click 2.Apply Patch-Linux.sh and patching should start automatically (you may have to `chmod +x` to allow execution of the script)
+3. Once patching is complete you will find your newly patched files in the 'output' folder
+4. Enjoy
+
+MacOS:
+1. Copy your original files into the 'original' folder with their original file names
+2. Double click 2.Apply Patch-Mac.command and a terminal window should appear (you may have to `chmod +x` to allow execution of the script)
+3. Once patching is complete you will find your newly patched files in the 'output' folder
+4. Enjoy
