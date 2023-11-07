@@ -14,7 +14,8 @@ Use the pack:
 
 2-Saint Seiya - Meiou Hades Juunikyuu-hen (Japan)-patchPCSX2 (Enable multilang option, enable 60 fps, enable sharp backbuffer-less blurry-)  
 
-3-Saint Seiya - 聖闘士星矢　～冥王ハーデス十二宮編～ (Japan)-patchJAPonly (フレームレートを60に設定し、シャープバックバッファを有効にして画像をぼやけないようにします)
+3-Saint Seiya - Meiou Hades Juunikyuu-hen (Japan)-patchJAPonly (60 fps enable)
+Saint Seiya - 聖闘士星矢　～冥王ハーデス十二宮編～ (Japan)-patchJAPonly (フレームレートを60に設定し、シャープバックバッファを有効にして画像をぼやけないようにします)
 
 Disclaimer codes are not fully tested.
 more info https://felixthecat1970.github.io/gamepatches-blog/blog/ps2/ps2-saint-seiya-series/
@@ -23,8 +24,8 @@ How to patch:
 verify your original ISO dump filehash (Redump verified)
 SHA-1 fdd7b2169f2bb687778d358a53609664f92694fd
 
-Rename your dump to:
-Saint Seiya - The Sanctuary (Europe) (En,Ja,Fr,De,Es,It)
+Rename your dump to: (updated name)
+Saint Seiya - Meiou Hades Juunikyuu-hen (Japan)   
 
 Windows:
 1. Copy your original files into the 'original' folder with their original file names
