@@ -1,7 +1,10 @@
-v2 update instructions
+v2 update instructions fot PNACH files (PCSX2 memory cheat files)
 Disclaimer codes are not fully tested use under your responsibility.
 
-Saint seiya series on ps2 only released in japan and europe with their respective problems (japan only japanese for non japanese) and europe (only in blurry PAL 50hz/25fps tv mode) so debugging executables couple moths ago i find the games has locked their video modes and languages, with this codes you can play European version in NTSC 60hz tv mode and framerate unlocked ( 60fps) but for people has the japanese version you can play in 4 languages, the languages files are hidden (or maybe unfinished) this codes unlock the languages and convert your japanese copy in multilanguage game with japanese intro and music, like always use my tutorials in my blog o check readme.
+Saint seiya series on ps2 only released in japan and europe with their respective problems (japan only japanese for non japanese) and europe (only in blurry PAL 50hz/25fps tv mode) 
+so debugging executables couple moths ago i find the games has locked their video modes and languages, with this codes you can play European version in NTSC 60hz tv mode and framerate unlocked ( 60fps)
+but for people has the japanese version you can play in 4 languages, the languages files are hidden (or maybe unfinished) this codes unlock the languages and 
+convert your japanese copy in multilanguage game with japanese intro and music, like always use my tutorials in my blog o check readme.
 
 .Pnach Codes for PCSX2 PC Emulator (look patch files for ISO patch)
 
