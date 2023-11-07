@@ -6,7 +6,11 @@ PS2 Saint Seiya - Saint Seiya: Meiou Hades Juunikyuu-hen SLPS-25744 v2 (image pa
 -make a easy patch image instead memory codes, 
 
 
-Saint seiya series on ps2 only released in japan and europe with their respective problems (japan only japanese for non japanese) and europe (only in blurry PAL 50hz/25fps tv mode and generic intro sound), so debugging executables couple months ago find the games has locked their video modes and languages, with this patch you can play European version in NTSC 60hz tv mode and framerate unlocked ( 60fps) but for people has the japanese version you can play in 4 languages, the languages files are hidden (or maybe unfinished) this codes unlock the languages and convert your japanese copy in multilanguage game with japanese intro and music.
+Saint seiya series on ps2 only released in japan and europe with their respective problems (japan only japanese for non japanese) and europe
+(only in blurry PAL 50hz/25fps tv mode and generic intro sound), so debugging executables couple months ago find the games has locked their
+video modes and languages, with this patch you can play European version in NTSC 60hz tv mode and framerate unlocked ( 60fps)
+but for people has the japanese version you can play in 4 languages, the languages files are hidden (or maybe unfinished)
+this codes unlock the languages and convert your japanese copy in multilanguage game with japanese intro and music.
 
 Use the pack:
 
