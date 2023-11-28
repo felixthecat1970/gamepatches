@@ -1,0 +1,21 @@
+//Saint Seiya - Meiou Hades Juunikyuu Hen (Japan) SLPS_257.44;1) Game CRC = 0x9051D2DF
+author=felixthecat1970
+[patches\Unlock 60fps + unlock multilanguage v2]
+description=Unlock 60fps + unlock multilanguage v2
+patch=0,EE,2013D5A4,extended,0000182D
+patch=0,EE,102C2A5C,extended,240201C0
+patch=0,EE,203118CC,extended,AF808C44
+patch=0,EE,20311954,extended,10000058
+patch=0,EE,203118D0,extended,00000000
+patch=0,EE,2031194C,extended,00000000
+patch=0,EE,20138B28,extended,0000202D
+patch=0,EE,002C8444,extended,24030002
+patch=0,EE,202C8418,extended,AC8A003C
+patch=0,EE,002DE170,extended,2A22002A
+
+
+patch=0,EE,0023E2D8,extended,3C033F40 //16:9 updated
+patch=0,EE,0023E264,extended,3C033F40
+patch=0,EE,00162B28,extended,3C033F40
+patch=0,EE,00162C68,extended,3C033F40
+
