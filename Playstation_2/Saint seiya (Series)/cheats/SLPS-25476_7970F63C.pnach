@@ -1,8 +1,0 @@
-//Saint Seiya Seiiki Juunikyuu Hen (Japan) SLPS-25476 CRC = 7970F63C
-author=felixthecat1970
-[patches\Unlock 60fps]
-description=Unlock 60fps
-patch=0,EE,20279150,extended,0000882D
-patch=0,EE,20278AE0,extended,0000802D
-patch=0,EE,20277A08,extended,0000802D
-patch=0,EE,201BAB50,extended,A040001C
