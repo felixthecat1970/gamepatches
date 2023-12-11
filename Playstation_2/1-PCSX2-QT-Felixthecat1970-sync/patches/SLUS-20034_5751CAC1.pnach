@@ -1,0 +1,6 @@
+gametitle=Unreal Tournament (USA) SLUS_200.34;1, Game CRC = 5751CAC1
+[Improvements]
+author=felixthecat1970
+comment=Unlock 60fps in gameplay (heavy on EE framedrops)
+
+patch=1,EE,0012D134,extended,28420001

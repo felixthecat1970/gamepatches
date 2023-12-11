@@ -1,0 +1,12 @@
+gametitle=Gumball 3000 (Europe) (En,Fr,De,Es,It) SLES_509.85;1) Game CRC = 0xC01501AF
+[Improvements]
+author=felixthecat1970
+comment=v1, PAL to NTSC, 60fps, no interlaced routine, less blur
+
+patch=0,EE,201F8CFC,extended,3C0143E0
+patch=0,EE,201F8D44,extended,3C1B4400
+patch=0,EE,201F8D5C,extended,AE3B0004
+patch=0,EE,2020BC14,extended,24060002
+patch=0,EE,2020BDF4,extended,240700E0
+patch=0,EE,201F9968,extended,25820000
+patch=0,EE,2020BB18,extended,0000382D
