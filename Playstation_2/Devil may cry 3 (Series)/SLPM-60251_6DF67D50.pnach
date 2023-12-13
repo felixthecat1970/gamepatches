@@ -2,7 +2,7 @@ comment=Devil May Cry 3 - Trial Version (Japan) (En,Ja) (Taikenban) Game CRC = 0
 author=felixthecat1970
 
 [Patches\QoL + widescreen alternate]
-description=disable interlacing by call ntsc-progressive mode.
+description=disable interlacing by call ntsc-progressive mode- old pending update....
 patch=0,EE,001DACB0,extended,24040000
 patch=0,EE,201DAED4,extended,0000282D
 patch=0,EE,20102DA0,extended,2647FFDF

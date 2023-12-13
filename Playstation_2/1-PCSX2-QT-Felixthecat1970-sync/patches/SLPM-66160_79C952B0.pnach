@@ -1,0 +1,66 @@
+comment=Devil May Cry 3 - Dante's Awakening (Special Edition) (Japan) SLPM_661.60;1) Game CRC = 0x79C952B0
+
+[Improvements]
+author=felixthecat1970
+comment=v3 change display buffer, NTSC 60hz, multilang (subtitles only), screen blur off (gameplay), combo code autounlock, others
+patch=0,EE,201EDE10,extended,0000202D
+patch=0,EE,20102C84,extended,3C0700E0
+patch=0,EE,205B639C,extended,00000002
+patch=0,EE,205B63A0,extended,00000003
+patch=0,EE,205B63A4,extended,00000004
+patch=0,EE,205B63A8,extended,00000005
+patch=0,EE,205B63AC,extended,00000006
+patch=0,EE,00331AE4,extended,24030016
+patch=0,EE,201AE8E0,extended,0000182D
+//patch=0,EE,001EE184,extended,2A020001
+patch=0,EE,20284B78,extended,241B0001
+patch=0,EE,20284B7C,extended,0C1578E8
+patch=0,EE,20284B80,extended,00000000
+patch=0,EE,2055E3A0,extended,7BB20020
+patch=0,EE,2055E3A4,extended,7BB10010
+patch=0,EE,2055E3A8,extended,145B0002
+patch=0,EE,2055E3AC,extended,00000000
+patch=0,EE,2055E3B0,extended,0000102D
+patch=0,EE,2055E3B4,extended,7BB00000
+patch=0,EE,2055E3B4,extended,03E00008
+patch=0,EE,20284B84,extended,DFBF0030
+
+[Call progressive NTSC mode]
+author=felixthecat1970
+comment=Special partial pmode for no interlaced, some transition 2d bugs
+patch=0,EE,201EE014,extended,0000182D
+
+[No HUD]
+author=felixthecat1970
+comment=comment=v1, disables game HUDS, press start starting battle, againg for show orbs, health
+patch=0,EE,2023C1C4,extended,A0400009
+patch=0,EE,2023C258,extended,A0620009
+patch=0,EE,2023B570,extended,A0400009
+patch=0,EE,2023B7DC,extended,A0620009
+patch=0,EE,202398D0,extended,A04E0009
+patch=0,EE,2023E75C,extended,00000000
+
+[New Widescreen]
+author=felixthecat1970
+comment=New reg, 2d art positions, missing text correction
+patch=0,EE,201AC7A4,extended,3C1B3F40
+patch=0,EE,201AC7A8,extended,AC7B0060
+patch=0,EE,201AC814,extended,3C1B3F40
+patch=0,EE,201AC818,extended,AC9B0060
+patch=0,EE,20214EEC,extended,0000102D
+patch=0,EE,2023E494,extended,A020710D
+patch=0,EE,001AC844,extended,3C0345BF
+patch=0,EE,001AC96C,extended,3C0345BF
+patch=0,EE,001AC55C,extended,3C033F40
+patch=0,EE,202E52EC,extended,240801C0
+patch=0,EE,2023279C,extended,240301C0
+patch=0,EE,20340704,extended,241B3FAA
+patch=0,EE,2034072C,extended,AE1B2E52
+
+[Experimental]
+author=felixthecat1970
+comment=skip invalidcache and syncache -bugs can happend-
+patch=0,EE,2010E5D8,extended,03E00008
+patch=0,EE,2010E5DC,extended,00000000
+patch=0,EE,2010E718,extended,03E00008
+patch=0,EE,2010E71C,extended,00000000

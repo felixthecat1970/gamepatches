@@ -1,7 +1,8 @@
-//Saint Seiya Seiiki Juunikyuu Hen (Japan) SLPS-25476 CRC = 7970F63C
+gametitle=Saint Seiya - Sanctuary Juunikyuu-hen (Japan) SLPS-25476
+comment=Unlock 60fps, Unlock characters vs mode, partial widescreen, others
+
+[Patches]
 author=felixthecat1970
-[patches\Unlock 60fps v2]
-description=Unlock 60fps v2
 patch=0,EE,20279150,extended,0000882D
 patch=0,EE,20278AE0,extended,0000802D
 patch=0,EE,20277A08,extended,0000802D
@@ -13,10 +14,15 @@ patch=0,EE,20391970,extended,A20B032A
 patch=0,EE,20391974,extended,A20B032B
 patch=0,EE,003569F4,extended,24020002
 
-patch=0,EE,0015E1B4,extended,3C033F40 //w16:9 updated
+[Partial Widescreen]
+author=felixthecat1970
+comment=still missing 2d assets aspect corrrection, side missing geometry
+patch=0,EE,0015E1B4,extended,3C033F40
 patch=0,EE,0015E300,extended,3C033F40
 patch=0,EE,002745C0,extended,3C033F40
 patch=0,EE,00274630,extended,3C033F40
 
-//call early built USA - atari logo - usa intro
-//patch=0,EE,202B4584,extended,24020001 
+[enable early USA parameters -test]
+author=felixthecat1970
+comment=Enable only this, show another intro and atari logo, text still in japanese test
+patch=0,EE,202B4584,extended,24020001

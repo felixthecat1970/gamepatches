@@ -1,0 +1,31 @@
+gametitle=Saint Seiya - The Sanctuary (Europe) (En,Ja,Fr,De,Es,It) SLES-53201
+comment=50fps only for cutscenes, battle intro, NTSC 60hz mode has bug (combos not link)
+
+[Patches]
+author=felixthecat1970
+patch=0,EE,202B5748,extended,0000182D
+patch=0,EE,202B5764,extended,0000102D
+patch=0,EE,2013A4C0,extended,0000182D
+patch=0,EE,2013A17C,extended,0000182D
+patch=0,EE,202794D0,extended,0000802D
+patch=0,EE,201BAE80,extended,0000882D
+patch=0,EE,20359434,extended,0000182D
+patch=0,EE,202B5740,extended,0000182D
+patch=0,EE,20359434,extended,24030002
+patch=0,EE,20394F18,extended,A20D032C
+patch=0,EE,20394F1C,extended,A20B032D
+patch=0,EE,20394F20,extended,A20B032E
+patch=0,EE,20394F24,extended,A20B032F
+
+[PAL MODE]
+author=felixthecat1970
+comment=Disable for NTSC mode but bug happen (combos not link)
+patch=0,EE,203527D8,extended,24020002
+
+[Partial Widescreen]
+author=felixthecat1970
+comment=still missing 2d assets aspect corrrection, side missing geometry
+patch=0,EE,0015E404,extended,3C033F40
+patch=0,EE,0015E2C4,extended,3C033F40
+patch=0,EE,00274FA0,extended,3C033F40
+patch=0,EE,00275010,extended,3C033F40

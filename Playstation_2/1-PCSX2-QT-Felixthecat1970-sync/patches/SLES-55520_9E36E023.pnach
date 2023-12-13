@@ -1,0 +1,7 @@
+gametitle=Transformers - Revenge of the Fallen (Europe) (En,Fr,De,Es,It) SLES_555.20;1, Game CRC = 9E36E023
+author=felixthecat1970
+
+[60 fps unlock + autoboot progressive scan]
+comment=disable fps cap by function enable only this or asasega version
+patch=0,EE,20120C18,extended,00000000
+patch=0,EE,201C7304,extended,0000202D 

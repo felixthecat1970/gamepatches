@@ -1,7 +1,8 @@
-//Saint Seiya - The Hades (Europe) (En,Ja,Fr,Es,It) SLES_541.62;1) Game CRC = 0x531AB6BC
+gametitle=Saint Seiya - The Hades (Europe) (En,Ja,Fr,Es,It) SLES_541.62;1) Game CRC = 0x531AB6BC
+comment=Unlock 60fps, Unlock characters vs mode, (patch available for change intro to japanese check my github)
+
+[Patches]
 author=felixthecat1970
-[patches\Unlock native NTSC + 60fps v2]
-description=improvements check forums pcsx2 or my blog
 patch=0,EE,2023FC20,extended,0000182D
 patch=0,EE,2023FC28,extended,0000182D
 patch=0,EE,2023FC44,extended,0000102D
@@ -16,7 +17,10 @@ patch=0,EE,202C5388,extended,AC8A003C
 patch=0,EE,002DAAD8,extended,2A22002A
 patch=0,EE,002C53B4,extended,24030002
 
-patch=0,EE,00162068,extended,3C033F40 //16:9 updated
+[Partial Widescreen]
+author=felixthecat1970
+comment=still missing 2d assets aspect corrrection, side missing geometry
+patch=0,EE,00162068,extended,3C033F40
 patch=0,EE,00161F28,extended,3C033F40
 patch=0,EE,0023B324,extended,3C033F40
 patch=0,EE,0023B398,extended,3C033F40

@@ -2,7 +2,7 @@ comment=Devil May Cry 3 - Dante's Awakening (USA) (En,Ja,Ko) Game CRC = 0x0BED0A
 author=felixthecat1970
 
 [Patches\QoL + widescreen alternate]
-description=disable interlacing by call ntsc-progressive mode.
+description=disable interlacing by call ntsc-progressive mode. old pending update
 patch=0,EE,201ED8B0,extended,0000202D
 patch=0,EE,201EDAB4,extended,0000182D
 patch=0,EE,00102E00,extended,2647FFDF

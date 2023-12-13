@@ -1,1 +1,0 @@
-Go to https://felixthecat1970.github.io/gamepatches-blog/blog/ps2/ps2-saint-seiya-series/ for autmatic patch files
