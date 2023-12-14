@@ -1,7 +1,0 @@
-gametitle= NeoGeo Online Collection Vol.2 Bakumatsu Roman Gekka no Kenshi 1-2 SLPS_255.03 Game CRC 142F45D8
-comment=no intro - logos + 240p mode enhacement test felixthecat1970
-
-patch=0,EE,20100DB4,extended,0000282D
-patch=0,EE,20100310,extended,0000782D
-patch=1,EE,E00182F0,extended,01FFEF20
-patch=1,EE,2013D9F8,extended,0000282D

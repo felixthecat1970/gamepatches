@@ -1,8 +1,0 @@
-gametitle= Capcom vs Snk 2 SLUS_202.46;1) Game CRC = 0x15149318
-comment=Enable full frame mode by Felixthecat1970
-
-//enable full frame mode
-patch=0,EE,201244B0,extended,241B0002
-patch=0,EE,20134DB4,extended,AC3BEDD0
-patch=0,EE,00134DB8,extended,24020002
-patch=0,EE,20134DC8,extended,AC2029AC

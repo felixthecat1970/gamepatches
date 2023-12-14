@@ -1,5 +1,0 @@
-//Everblue (Europe) SLES_506.39;1) Game CRC = 0x3832F5E0
-//240p mode by felixthecat1970
-
-//240p mode - games is field render
-patch=0,EE,20134898,extended,0000282D

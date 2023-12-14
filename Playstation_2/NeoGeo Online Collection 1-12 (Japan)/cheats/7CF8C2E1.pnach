@@ -1,7 +1,0 @@
-gametitle=NeoGeo Online Collection Vol. 9 - World Heroes Gorgeous (Japan) SLPS_257.82;1) Game CRC = 0x7CF8C2E1
-comment=No logo - intro + progressive 240p test by felixthecat1970
-
-patch=0,EE,201018A0,extended,0000202D
-patch=1,EE,E002C870,extended,01FFEF20
-patch=1,EE,201065CC,extended,0000282D
-patch=1,EE,001065D0,extended,00000050

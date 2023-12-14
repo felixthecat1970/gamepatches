@@ -1,0 +1,62 @@
+gametitle=Devil May Cry (USA) SLUS_202.16;1) Game CRC = 0x79B8A95F
+
+[Improvements]
+author=Felxithecat1970
+comment=No screen blur (preserve others effects), no interlaced v3
+patch=0,EE,00571E40,extended,001494D8
+patch=0,EE,2015C04C,extended,0000382D
+patch=0,EE,2015C068,extended,0000382D
+patch=0,EE,2015C088,extended,0000382D
+patch=0,EE,2015C08C,extended,0000382D
+patch=0,EE,2015C0A8,extended,0000382D
+patch=0,EE,2015C0C4,extended,0000382D
+patch=0,EE,2015C0E0,extended,0000382D
+
+[No Hud]
+author=Felxithecat1970
+comment=R3=Off R2=ON - BOSSES cannot look health in battle
+patch=1,EE,E0020004,extended,00765572 //R3 Disable Hud
+patch=1,EE,00752471,extended,00
+patch=1,EE,007524A9,extended,00
+patch=1,EE,E0020200,extended,00765572 //R2 Enable
+patch=1,EE,00752471,extended,FF
+patch=1,EE,007524A9,extended,FF
+patch=1,EE,E0020219,extended,007524A2
+patch=1,EE,00752471,extended,FF
+patch=1,EE,007524A9,extended,FF
+
+[New widescreen code]
+author=Felxithecat1970
+comment=based elf hack
+patch=0,EE,2010338C,extended,3C013F40
+patch=0,EE,20103390,extended,44810000
+patch=0,EE,20103398,extended,4600C602
+patch=0,EE,2015B110,extended,0000182D
+
+[Devil may cry series controller layout]
+author=Felxithecat1970
+comment=restore default button layout
+patch=1,EE,2010C184,extended,0803F414
+patch=1,EE,200FD050,extended,00C0C821
+patch=1,EE,200FD054,extended,08043063
+patch=1,EE,200FD058,extended,24030070
+patch=1,EE,2010C1F4,extended,0803F417
+patch=1,EE,200FD05C,extended,87240002
+patch=1,EE,200FD060,extended,30858FFF
+patch=1,EE,200FD064,extended,9326000C
+patch=1,EE,200FD068,extended,9327000E
+patch=1,EE,200FD06C,extended,9328000D
+patch=1,EE,200FD070,extended,30811000
+patch=1,EE,200FD074,extended,34A32000
+patch=1,EE,200FD078,extended,0061280B
+patch=1,EE,200FD07C,extended,A326000D
+patch=1,EE,200FD080,extended,30814000
+patch=1,EE,200FD084,extended,34A31000
+patch=1,EE,200FD088,extended,0061280B
+patch=1,EE,200FD08C,extended,A327000C
+patch=1,EE,200FD090,extended,30812000
+patch=1,EE,200FD094,extended,34A34000
+patch=1,EE,200FD098,extended,0061280B
+patch=1,EE,200FD09C,extended,A328000E
+patch=1,EE,200FD0A0,extended,03E00008
+patch=1,EE,200FD0A4,extended,A7250002

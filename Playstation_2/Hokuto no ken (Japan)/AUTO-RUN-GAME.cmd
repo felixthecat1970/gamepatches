@@ -1,1 +1,0 @@
-pcsx2-qtx64-avx2 -fullscreen ".\Hokuto no ken.iso"

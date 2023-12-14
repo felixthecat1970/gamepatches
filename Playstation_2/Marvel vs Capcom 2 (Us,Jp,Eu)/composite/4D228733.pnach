@@ -1,6 +1,0 @@
-gametitle=Marvel vs. Capcom 2 - New Age of Heroes (USA) SLUS_204.86;1) Game CRC = 0x4D228733
-comment=Enable full frame mode by felixthecat1970
-
-patch=0,EE,003EC218,extended,24020002
-patch=0,EE,203EC21C,extended,AC22BC00
-patch=0,EE,203EC22C,extended,AC20BC1C

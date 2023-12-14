@@ -1,8 +1,0 @@
-gametitle=Capcom vs. SNK 2 - Millionaire Fighting 2001 (Japan) SLPM_650.47;1) Game CRC = 0xB54C0319
-comment=Enable full frame mode by Felixthecat1970
-
-//enable full frame mode version
-patch=0,EE,20124540,extended,241B0002
-patch=0,EE,20134E44,extended,AC3B2990
-patch=0,EE,20134E48,extended,24020002
-patch=0,EE,20134E58,extended,AC2029AC

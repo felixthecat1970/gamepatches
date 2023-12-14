@@ -1,4 +1,0 @@
-gametitle= Garou mark of wolves SLPS_255.09;1) Game CRC = 0xC002C3F2
-comment=Autoenable progressive scan by felixthecat1970
-
-patch=0,EE,201F9D24,extended,0C07E6D0

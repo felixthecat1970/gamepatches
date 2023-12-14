@@ -1,8 +1,0 @@
-gametitle=DragonBall Z - Infinite World (Europe) (En,Fr,De,Es,It) SLES_553.47;1) Game CRC = 0x335A5A1F
-comment=Enable native NTSC tv mode v1 by Felixthecat1970
-
-patch=0,EE,10420300,extended,00000002
-patch=0,EE,10420328,extended,000001C0
-patch=0,EE,2014376C,extended,0000102D
-patch=0,EE,202D6CC4,extended,A6230020
-patch=0,EE,202D6CC0,extended,A2200007
