@@ -2,7 +2,7 @@ comment=Devil May Cry 3 - Dante's Awakening (Special Edition) (Japan) SLPM_661.6
 
 [Improvements]
 author=felixthecat1970
-comment=v3 change display buffer, NTSC 60hz, multilang (subtitles only), screen blur off (gameplay), combo code autounlock, others
+comment=v3 change display buffer, multilang (subtitles only), screen blur off (gameplay), combo code autounlock, others
 patch=0,EE,201EDE10,extended,0000202D
 patch=0,EE,20102C84,extended,3C0700E0
 patch=0,EE,205B639C,extended,00000002
