@@ -1,0 +1,21 @@
+gametittle=Metal Gear Solid 2 - Sons of Liberty - Trial Edition (USA) (Demo) SLUS-29003 CRC=C9928A41
+
+[IMPROVEMENTS]
+author=byfelixthecat1970
+comment=less blur, cutscene unlock 60fps, 
+patch=0,EE,1026AF48,extended,227C
+patch=0,EE,20212B68,extended,0C09AC7E
+patch=0,EE,20212B6C,extended,8C84AF28
+patch=0,EE,2026B1F8,extended,241B0002
+patch=0,EE,2026B1FC,extended,149B0002
+patch=0,EE,2026B200,extended,00651823
+patch=0,EE,2026B204,extended,24040001
+patch=0,EE,2026B208,extended,03E00008
+
+[New widescreen]
+author=byfelixthecat1970
+comment=(widescreen missing bridge far lights correction)
+patch=0,EE,0021423C,extended,3C013F40
+patch=0,EE,2021434C,extended,3C1B3F80
+patch=0,EE,20214358,extended,449B9000
+patch=0,EE,20214400,extended,449B9000

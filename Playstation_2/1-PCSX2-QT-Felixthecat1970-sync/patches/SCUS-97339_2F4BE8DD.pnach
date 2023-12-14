@@ -1,0 +1,13 @@
+gametitle=Official U.S. PlayStation Magazine Demo Disc 086 (Metal Gear Solid 3 - Snake Eater (Trial Version) rip by [SolidSnake11] SCUS_973.39;1) Game CRC = 0x56286173
+
+[IMPROVEMENTS]
+author=felixthecat1970
+comment=Unlock FPS, gameplay cutscenes, New widescreen, less blur
+patch=1,EE,20153A60,extended,24060001
+patch=1,EE,20153D54,extended,0000202D
+patch=1,EE,201538A4,extended,24060001
+
+[New widescreen]
+author=felixthecat1970
+comment=New widescreen code
+patch=1,EE,00125904,extended,3C013F40
