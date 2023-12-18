@@ -1,6 +1,6 @@
 gametittle=DragonBall Z - Budokai 3 - Collector's Edition (Europe) (En,Ja,Fr,De,Es,It) SLES_533.46;1, Game CRC = 4E0D7BDE
 
-[V2 PAL to Native 60hz/60fps, others]
+[V2 PAL to Native NTSC60hz/60fps, others]
 author=felixthecat1970
 comment=v2 call NTSC 60hz video mode, others
 patch=0,EE,003BC300,extended,00000002

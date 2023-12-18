@@ -1,6 +1,6 @@
 gametittle=Dragon Ball Z: Infinite World (Europe) SLES_553.47;1) Game CRC = 0x335A5A1F
 
-[V2 PAL to Native 60hz/60fps, others]
+[V2 PAL to Native NTSC60hz/60fps, others]
 author=felixthecat1970
 comment=comment=v2 call NTSC 60hz video mode, others.
 patch=0,EE,10420300,extended,00000002
