@@ -1,0 +1,23 @@
+gametittle=Midnight Club 3 - DUB Edition Remix (USA)
+
+[V1 60fps register / Multilanguage / -no combine other patch-]
+author=felixthecat1970
+comment=autoload lang or go game options, removed some blurry effect, missing reg for pedestriand 3d logic
+patch=0,EE,20618D38,extended,00000000
+patch=0,EE,201A72F8,extended,00000000
+patch=0,EE,001A730C,extended,24020001
+patch=0,EE,001A7310,extended,24030002
+patch=0,EE,201A51D8,extended,00000000
+patch=0,EE,204B6998,extended,24030001
+patch=0,EE,201AB298,extended,24030001
+patch=0,EE,20350BB4,extended,24030001
+patch=0,EE,201BE6E0,extended,24050001
+patch=0,EE,20529E6C,extended,00000000
+patch=0,EE,20529E9C,extended,00000000
+patch=0,EE,20529E78,extended,0000282D
+
+[V1 UNLOCK WIDESCREEN /-no combine other patch-]
+author=felixthecat1970
+comment=game has native widescreen disabled, call routine for officialy enabled
+patch=0,EE,20527E90,extended,10600001
+patch=0,EE,20527E94,extended,A0C35A34

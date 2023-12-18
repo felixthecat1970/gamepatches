@@ -1,0 +1,19 @@
+gametittle=Dragon Ball Z Infinite World (Japan) SLPS_259.05;1, Game CRC = C7E583CF
+
+[V2 Progressive scan + sharp mode + 640x448p]
+author=felixthecat1970
+comment=v2 Rebuild progressive scan video, extend internal resolution
+patch=0,EE,10420300,extended,00000150
+patch=0,EE,20420304,extended,02800101
+patch=0,EE,20420324,extended,02800000
+patch=0,EE,20420320,extended,01000001
+patch=0,EE,20144160,extended,00000000
+patch=0,EE,201437B8,extended,241B008C
+patch=0,EE,20143834,extended,A2000038
+patch=0,EE,20143844,extended,A21B0010
+
+[Experimental Unlock all characters, etc, warning-jap-]
+author=felixthecat1970
+comment=!!警告: これはあなたのPS2メモリーカードのセーブデータを変更します。テストの前にバックアップを取ってください!!
+patch=0,EE,202ABAD4,extended,240300E1
+patch=0,EE,202ADD28,extended,240300E1

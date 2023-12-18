@@ -1,0 +1,21 @@
+gametittle=not work need iso patch
+
+[V1 PAL50hz 25fps to NTSC 60hz/60fps -no combine other patch-]
+author=felixthecat1970
+comment=
+patch=1,EE,20618D38,extended,00000000
+patch=1,EE,0052D4F8,extended,24020055
+patch=1,EE,204B6948,extended,24030001
+patch=1,EE,201AB248,extended,24030001
+patch=1,EE,20350B64,extended,24030001
+patch=1,EE,201BE690,extended,24050001
+patch=1,EE,201A72F8,extended,00000000
+patch=1,EE,201A51D8,extended,00000000
+patch=1,EE,001A730C,extended,24020001
+patch=1,EE,001A7310,extended,24030002
+
+[V1 UNLOCK WIDESCREEN /-no combine other patch-]
+author=felixthecat1970
+comment=game has native widescreen disabled, call routine for officialy enabled
+patch=1,EE,20527E88,extended,10600001
+patch=1,EE,20527E8C,extended,A0C35A34

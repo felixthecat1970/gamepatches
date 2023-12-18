@@ -1,0 +1,36 @@
+gametittle=DragonBall Z - Budokai 3 - Collector's Edition (Europe) (En,Ja,Fr,De,Es,It) SLES_533.46;1, Game CRC = 4E0D7BDE
+
+[V2 PAL to Native 60hz/60fps, others]
+author=felixthecat1970
+comment=v2 call NTSC 60hz video mode, others
+patch=0,EE,003BC300,extended,00000002
+patch=0,EE,103BC328,extended,000001C0
+patch=0,EE,0042CEF4,extended,00000000
+patch=0,EE,002F18E8,extended,24030002
+patch=0,EE,202945F8,extended,241B000C
+patch=0,EE,202946E4,extended,A03BF5C9
+patch=0,EE,20287E4C,extended,24020026
+
+[V2 Progressive scan mode + sharp mode + 640x448p]
+author=felixthecat1970
+comment=v2 Rebuild progressive scan video, extend internal resolution
+patch=0,EE,103BC300,extended,00000150
+patch=0,EE,203BC320,extended,01000001
+patch=0,EE,20149E9C,extended,00000000
+patch=0,EE,203BC324,extended,02800000
+patch=0,EE,203BC304,extended,02800101
+patch=0,EE,201494F8,extended,241B008C
+patch=0,EE,20149578,extended,A2000038
+patch=0,EE,20149588,extended,A21B0010
+
+[Experimental NTSC 60hz sharp mode]
+author=felixthecat1970
+comment=should work same as pmode but NTSC signal
+patch=0,EE,103BC300,extended,00000102
+patch=0,EE,203BC320,extended,00010001
+patch=0,EE,20149E9C,extended,A2000023
+
+[Experimental Unlock all characters, etc in game]
+author=felixthecat1970
+comment=!!Warning this change your memory card saves, backup before test!! 
+patch=0,EE,201F51D8,extended,24050001
