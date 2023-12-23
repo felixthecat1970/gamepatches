@@ -1,0 +1,16 @@
+gametitle=Persona 3 FES (SLUS-21621) Game CRC = 0x0033A2C2
+
+
+//Tested Versions - can work other patched images based on USA (if executable is not heavely changed)
+//Clean USA version SLUS_216.21;1) Game CRC = 0x94A82AAA
+//Patch (UNDUB) (English remix v1) SLUS_216.21;1) Game CRC = 0x970A82A2
+//Patch (UNDUB) (Spanish 1.1b) SLUS_216.21;1) Game CRC = 0x0033A2C2
+[Unlock autoboot progressive scan mode
+author=by felixthecat1970
+comment=v1,enable call native 480p mode (need some testing but should work ok)
+patch=0,EE,00197AF0,extended,24040057
+patch=0,EE,1077EF3C,extended,000001C0
+patch=0,EE,104E0C6C,extended,240201C0
+patch=0,EE,2019D328,extended,03601020
+patch=0,EE,2019D334,extended,0000D82D
+patch=0,EE,2019D348,extended,241B0001
