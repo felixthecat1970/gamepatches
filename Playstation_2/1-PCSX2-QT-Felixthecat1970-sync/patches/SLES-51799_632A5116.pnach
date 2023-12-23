@@ -1,0 +1,15 @@
+gametitle=Soulcalibur II (Europe) (En,Ja,Fr,De,Es,It) SLES_517.99;1) Game CRC = 0x632A5116
+
+[autoboot progressive mode, auto call widescreen]
+author=by felixthecat1970
+comment=disable pal selector, autoboot pmode, auto widescreen default
+patch=0,EE,201CBF60,extended,24050006
+patch=0,EE,001CC670,extended,24050007
+patch=0,EE,0013FBDC,extended,24040002
+patch=0,EE,00317EA0,extended,00000002
+patch=0,EE,2013FC08,extended,AC40006C
+patch=0,EE,201CC280,extended,00000000
+patch=0,EE,20132040,extended,00000000
+patch=0,EE,003B57BC,extended,00000001
+patch=0,EE,003B59CC,extended,00000001
+patch=0,EE,00159B24,extended,24020000
