@@ -1,0 +1,11 @@
+gametitle=Burnout 3 - Takedown (Europe, Australia) (En,Es,Nl,Sv) SLES_525.84;1) Game CRC = 0x75BECC18
+
+
+[Re-enable native progressive scan mode v1]
+author=felixthecat1970
+comment=Re-enable and autoboot progressive scan mode, extend 640x480p.
+patch=0,EE,2021B764,extended,0000182D
+patch=0,EE,20437118,extended,241B0003
+patch=0,EE,20437120,extended,A07B09A4
+patch=0,EE,00228154,extended,24020001
+patch=0,EE,20228170,extended,00000000

@@ -1,0 +1,20 @@
+gametitle=Burnout Dominator (Europe) (En,Fr,De,Es,It) SLES_546.27;1) Game CRC = 0x8C9576B4
+author=felixthecat1970
+
+[Autoboot progressive scan mode 480p *disable USA codes]
+author=felixthecat1970
+comment=Re-enable and autoboot progressive scan mode, extend 640x480p.
+patch=0,EE,0020967C,extended,24030004
+patch=0,EE,2020A304,extended,24030002
+patch=0,EE,001B4904,extended,24020001
+patch=0,EE,201B4918,extended,00000000
+patch=0,EE,101B4E50,extended,240601E0
+
+[Enable build USA version parameters + pmode + langs *disable other codes]
+author=felixthecat1970
+comment=Experimental USA build parameters + LANGS + extend 640x480p, memory ID card changes, saves not compactible i guess...
+patch=0,EE,003C5104,extended,55
+patch=0,EE,2020A304,extended,24030002
+patch=0,EE,001B4904,extended,24020001
+patch=0,EE,201B4918,extended,00000000
+patch=0,EE,101B4E50,extended,240601E0

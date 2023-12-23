@@ -1,0 +1,11 @@
+gametitle=Burnout Revenge (Europe) (Fn,Du,Es,It,Sw) SLES_535.06;1) Game CRC = 0x2CAC3DBC
+
+[Autoboot native progressive scan mode 480p extend]
+author=felixthecat1970
+description=Re-enable and autoboot progressive scan mode, extend 640x480p.
+patch=0,EE,201103CC,extended,0000102D
+patch=0,EE,201980EC,extended,00000000
+patch=0,EE,20198114,extended,15120016
+patch=0,EE,0014BFBC,extended,24020001
+patch=0,EE,2014BFD0,extended,00000000
+patch=0,EE,1014C508,extended,240601E0
