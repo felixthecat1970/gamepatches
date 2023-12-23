@@ -1,0 +1,7 @@
+gametitle=Street Fighter III - 3rd Strike SLPM_656.21;1) Game CRC = 0x65A15D7C
+
+[Extend resolution to 640x448]
+author=felixthecat1970
+comment=v2 check, correct some values
+patch=0,EE,2038458C,extended,0000402D
+patch=0,EE,20383380,extended,AC46D558

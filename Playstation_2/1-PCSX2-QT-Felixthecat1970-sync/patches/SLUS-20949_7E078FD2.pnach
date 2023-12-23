@@ -1,0 +1,9 @@
+gametitle=Street Fighter Anniversary Collection (USA) SLUS_209.49;1) Game CRC = 0x7E078FD2
+
+[SFIII extend resolution \ SFHE, less blurry]
+author=felixthecat1970
+comment=v2 extend hor+ res - less blurry
+patch=1,EE,0010D574,extended,24640000
+
+
+
