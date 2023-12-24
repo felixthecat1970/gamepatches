@@ -1,0 +1,15 @@
+gametitle=Harry Potter and the Sorcerer's Stone (USA) (En,Es) SLUS_208.26;1) Game CRC = 0xC71A6146, EntryPoint = 0x002A2FA8
+
+[Enable progressive scan mode]
+author=by felixthecat1970
+comment=progressive scan mode + unlock fps 
+patch=0,EE,2026E528,extended,3405EA60
+patch=0,EE,0026E538,extended,24090001
+patch=0,EE,1026E914,extended,24030280
+patch=0,EE,202E0870,extended,24080001
+patch=0,EE,202E1078,extended,0000282D
+patch=0,EE,002E08B8,extended,24040002
+patch=0,EE,002E00C4,extended,30840002
+patch=0,EE,202E077C,extended,24A5FFFF
+patch=0,EE,202E1070,extended,24060050
+patch=0,EE,102E0854,extended,24030134

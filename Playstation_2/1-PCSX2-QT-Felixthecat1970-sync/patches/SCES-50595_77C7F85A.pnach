@@ -1,0 +1,9 @@
+gametitle=Disney-Pixar Monsters, Inc. - Scare Island (Europe) SCES_505.95;1) Game CRC = 0x77C7F85A
+
+[Enable NTSC60hz video mode]
+author= by Felixthecat1970
+comment=fmv recorded in PAL mode only, runs ok in NTSC (with less frames)
+patch=1,EE,00183B1C,extended,24040052
+patch=1,EE,001C6744,extended,24060002
+patch=1,EE,101C6758,extended,240801C0
+patch=1,EE,101C6778,extended,240700E0

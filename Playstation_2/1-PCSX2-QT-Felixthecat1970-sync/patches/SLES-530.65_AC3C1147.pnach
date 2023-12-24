@@ -1,0 +1,19 @@
+gametitle=SNK vs. Capcom - SVC Chaos (Europe) SLES_530.65;1) Game CRC = 0xAC3C1147
+
+[re-enable progressive scan mode]
+author=by felixthecat1970
+comment=re-enable progressive scan mode, use sw mode in pcsx2
+patch=0,EE,202DDF34,extended,24040001
+patch=0,EE,202DDF4C,extended,24050001
+patch=0,EE,202DF2C0,extended,AC207B68
+patch=0,EE,202DFFFC,extended,0C0B8012
+patch=0,EE,202DDFA8,extended,0000282D
+patch=0,EE,202DDFAC,extended,24060050
+patch=0,EE,202DDFB4,extended,24070001
+patch=0,EE,202DE000,extended,0000502D
+patch=0,EE,202DE120,extended,0000102D
+patch=0,EE,202F8654,extended,241B0001
+patch=0,EE,202F86EC,extended,A03B7AA0
+patch=0,EE,202DEEA8,extended,240301C0
+patch=0,EE,20100888,extended,2643FFBF
+
