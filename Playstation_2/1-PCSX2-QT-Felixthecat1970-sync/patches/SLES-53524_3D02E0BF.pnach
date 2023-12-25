@@ -1,0 +1,15 @@
+gametittle=Mortal Kombat - Shaolin Monks (Europe) (En,Fr,De,Es,It) SLES_535.24 crc=3D02E0BF
+
+[Native NTSC60hz\60fps + Full frame mode + sharp bf. gameplay]
+author=felixthecat1970
+comment=v1, h.res reduced to 512, f.framemode is experimetal , bugs some 2d screens
+patch=1,EE,202132D8,extended,0000102D
+patch=1,EE,202FADB8,extended,8C65000C
+patch=1,EE,20128E40,extended,3C1B006F
+patch=1,EE,20128E50,extended,A360634C
+patch=1,EE,201D527C,extended,A370634C
+patch=1,EE,20275880,extended,8F63634C
+patch=1,EE,20231628,extended,3C1B006F
+patch=1,EE,20274948,extended,0000182D
+patch=1,EE,20128E48,extended,A3686344
+patch=1,EE,201E4D24,extended,A3606344
