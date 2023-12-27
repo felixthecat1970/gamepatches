@@ -1,0 +1,29 @@
+gametitle=Dragon Ball Z 3 (Japan) crc=5B26AFF9
+
+[Autoenable Progressive scan + sharp mode]
+author=felixthecat1970
+comment=v1, not need combo button
+patch=1,EE,202F90D8,extended,24055000
+patch=1,EE,202EFA14,extended,00000000
+patch=1,EE,202EFA5C,extended,00000000
+patch=1,EE,202EFB8C,extended,00000000
+patch=1,EE,20149F1C,extended,00000000
+patch=1,EE,202EF0D8,extended,241B0100
+patch=1,EE,202EF0EC,extended,A7BB0032
+patch=1,EE,002F0C54,extended,24030002
+patch=0,EE,201F68B8,extended,24050001
+
+[Experimental sharp mode]
+author=felixthecat1970
+comment=b1, some visual bugs
+patch=1,EE,202EF0D0,extended,24030150
+patch=1,EE,202EF0DC,extended,AFA30010
+patch=1,EE,202EF0E4,extended,A7A20016
+patch=0,EE,2014A3DC,extended,A2250010
+patch=0,EE,2014A428,extended,A2200038
+
+[Unlock all characters, item etc]
+author=felixthecat1970
+comment=警告: これはあなたのPS2メモリーカードのセーブデータを変更します。テストの前にバックアップを取ってください。
+patch=0,EE,202ABAD4,extended,240300E1
+patch=0,EE,202ADD28,extended,240300E1
