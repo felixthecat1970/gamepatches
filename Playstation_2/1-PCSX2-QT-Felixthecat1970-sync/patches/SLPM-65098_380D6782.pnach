@@ -1,0 +1,24 @@
+gametitle=Silent hill saigo no uta SLPM_650.98;1) Game CRC = 0x380D6782
+
+[Unlock\fix language options, unlock v2-60fps, extras R1 in m.menu]
+author=Felixthecat1970
+comment=Maria scenario only Eng\Jap, no logos, fmv no int., changed dfb
+patch=0,EE,00220274,extended,24020005
+patch=0,EE,002201BC,extended,24020005
+patch=0,EE,2021890C,extended,A031E164
+patch=0,EE,20218914,extended,A031E165
+patch=0,EE,201A6D40,extended,10000009
+patch=0,EE,201961FC,extended,00000000
+patch=0,EE,20195F74,extended,24030003
+patch=0,EE,0021B8C8,extended,24630004
+patch=0,EE,202AC830,extended,24050001
+
+[New port v2 widescreeen]
+gsaspectratio=16:9
+author=Felixthecat1970
+comment=v1 horizontal reg port from elhech, nemesis2000
+patch=1,EE,1017A418,extended,3C0243C0
+patch=1,EE,102AD098,extended,24100004
+patch=1,EE,102AD09C,extended,24030004
+patch=1,EE,102AD07C,extended,340690B0
+patch=1,EE,102AD04C,extended,3C026F50

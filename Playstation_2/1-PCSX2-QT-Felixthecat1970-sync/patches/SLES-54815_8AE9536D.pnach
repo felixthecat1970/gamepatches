@@ -1,0 +1,15 @@
+gametitle=Legend of Spyro, The - The Eternal Night (Europe) (En,Fr,De,Es,It,Nl) SLES_548.15;1, Game CRC = 8AE9536D
+
+[FPS unlock + fix movies--disable other fps codes--]
+author=Felixthecat1970
+comment=b1,fmv PAL desync for NTSC, searching workaround....
+patch=0,EE,2017740C,extended,0000182D
+patch=0,EE,2012437C,extended,3C01008D
+patch=0,EE,20124380,extended,9022C8B4
+patch=0,EE,201F0370,extended,A03161F0
+
+[Force widescreen]
+gsaspectratio=16:9
+author=Felixthecat1970
+comment=bypass bios setting
+patch=0,EE,201F02DC,extended,00000000

@@ -8,6 +8,7 @@ patch=1,EE,20153D54,extended,0000202D
 patch=1,EE,201538A4,extended,24060001
 
 [New widescreen]
+gsaspectratio=16:9
 author=felixthecat1970
 comment=New widescreen code
 patch=1,EE,00125904,extended,3C013F40

@@ -1,0 +1,34 @@
+gametitle=Legend of Spyro, The - The Eternal Night (USA) SLUS_216.07;1, Game CRC = B80CE8EC
+
+[Unlock +Russian Es,It,De,Fr,Nl +v2-60fps +Others]
+author=Felixthecat1970
+comment=Progressive scan mode, Fr-Sp text bugs, No voiceovers, -disable other 60fps- 
+patch=0,EE,20124A7C,extended,24050004
+patch=0,EE,20122510,extended,00000000
+patch=0,EE,2012251C,extended,00000000
+patch=0,EE,20122528,extended,00000000
+patch=0,EE,20122534,extended,00000000
+patch=0,EE,2012CA58,extended,241B0002
+patch=0,EE,2012CAAC,extended,FC3B0020
+patch=0,EE,20221F1C,extended,10400009
+patch=0,EE,2044DD58,extended,10400003
+patch=0,EE,201F03C0,extended,A0315C70
+patch=1,EE,20442C7C,extended,0000202D
+patch=0,EE,2017747C,extended,0000182D
+patch=0,EE,2012434C,extended,3C01008D
+patch=0,EE,20124350,extended,9022C334
+patch=0,EE,2040E134,extended,0000202D
+
+[Debug info + level sl. -warning backup saves before test]
+author=Felixthecat1970
+comment=b1, others opt. available.
+patch=0,EE,20177558,extended,0000182D
+patch=0,EE,201234F4,extended,241B0001
+patch=0,EE,20123504,extended,A39BAF50
+patch=0,EE,20123544,extended,A022F944
+
+[Force official widescreen]
+gsaspectratio=16:9
+author=felixthecat1970
+comment=bypass bios settings
+patch=0,EE,201F032C,extended,00000000

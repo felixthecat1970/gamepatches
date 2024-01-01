@@ -11,6 +11,7 @@ patch=0,EE,001F8F88,extended,24060020
 patch=0,EE,003BD7AC,extended,24040001
 
 [Alternate widescreen]
+gsaspectratio=16:9
 author=by felixthecat1970
 comment=v1 some ports and registers -need more check...
 patch=0,EE,10188250,extended,3C023FE3

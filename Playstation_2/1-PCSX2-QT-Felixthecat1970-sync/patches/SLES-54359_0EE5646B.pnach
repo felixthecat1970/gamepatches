@@ -1,0 +1,25 @@
+gametitle=Legend of Spyro, The - A New Beginning (Europe) (En,Fr,De,Es,It,Nl) SLES_543.59;1, Game CRC = 0EE5646B
+
+[Unlock NTSC60hz\60fps, less blur--disable other fps codes---]
+author=Felixthecat1970
+comment=v1,fmv audio to eng for fix desync, others wa.
+patch=0,EE,201219E8,extended,0000282D
+patch=0,EE,201219F4,extended,24050280
+patch=0,EE,201219F8,extended,24040001
+patch=0,EE,201219FC,extended,240601C0
+patch=0,EE,204368AC,extended,10620003
+patch=0,EE,201F3120,extended,A0311A60
+patch=0,EE,2021EF0C,extended,10400009
+patch=0,EE,20188B8C,extended,0000182D
+patch=0,EE,201211A0,extended,3C010075
+patch=0,EE,201211A4,extended,9022A914
+patch=0,EE,2011FD7C,extended,24C30000
+patch=0,EE,2042C06C,extended,0000202D
+
+[Force widescreen]
+gsaspectratio=16:9
+author=Felixthecat1970
+comment=bypass bios setting
+patch=0,EE,201F307C,extended,00000000
+
+//fmv are 29fps for correct sync

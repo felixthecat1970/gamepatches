@@ -18,6 +18,7 @@ patch=0,EE,002DAAD8,extended,2A22002A
 patch=0,EE,002C53B4,extended,24030002
 
 [Partial Widescreen]
+gsaspectratio=16:9
 author=felixthecat1970
 comment=still missing 2d assets aspect corrrection, side missing geometry
 patch=0,EE,00162068,extended,3C033F40

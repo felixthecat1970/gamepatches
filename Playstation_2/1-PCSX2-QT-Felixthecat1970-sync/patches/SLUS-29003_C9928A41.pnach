@@ -13,6 +13,7 @@ patch=0,EE,2026B204,extended,24040001
 patch=0,EE,2026B208,extended,03E00008
 
 [New widescreen]
+gsaspectratio=16:9
 author=byfelixthecat1970
 comment=(widescreen missing bridge far lights correction)
 patch=0,EE,0021423C,extended,3C013F40

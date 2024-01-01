@@ -1,0 +1,26 @@
+gametitle=Legend of Spyro, The - A New Beginning (USA) SLUS_213.72;1, Game CRC = D03D4C77
+
+[Unlock Multilanguage + v2-60fps + Others]
+author=Felixthecat1970
+comment=v1,fmv audio to eng,less blur,disable other fps code 
+patch=0,EE,2043611C,extended,10620003
+patch=0,EE,2021EC3C,extended,10400009
+patch=0,EE,201F30B0,extended,A03110E0
+patch=0,EE,20188B8C,extended,0000182D
+patch=0,EE,201211A0,extended,3C010075
+patch=0,EE,201211A4,extended,90229F94
+patch=0,EE,2011FD7C,extended,24C30000
+
+[Force official Widescreen]
+gsaspectratio=16:9
+author=Felixthecat1970
+comment=bypass bios settings
+patch=0,EE,201F300C,extended,00000000
+
+[Debug info -warning backup saves before test]
+author=Felixthecat1970
+comment=b1 stadistics, others opt. available.
+patch=0,EE,20188C64,extended,0000182D
+patch=0,EE,20120380,extended,241B0001
+patch=0,EE,20120390,extended,A39BA1CC
+patch=0,EE,201203BC,extended,A03B2D94

@@ -17,6 +17,7 @@ patch=0,EE,20529E9C,extended,00000000
 patch=0,EE,20529E78,extended,0000282D
 
 [V1 UNLOCK WIDESCREEN /-no combine other patch-]
+gsaspectratio=16:9
 author=felixthecat1970
 comment=game has native widescreen disabled, call routine for officialy enabled
 patch=0,EE,20527E90,extended,10600001
