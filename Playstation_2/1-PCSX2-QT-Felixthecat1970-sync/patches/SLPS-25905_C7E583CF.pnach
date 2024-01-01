@@ -6,13 +6,34 @@ comment=v2 Rebuild progressive scan video, extend internal resolution
 patch=0,EE,10420300,extended,00000150
 patch=0,EE,20420304,extended,02800101
 patch=0,EE,20420324,extended,02800000
+patch=0,EE,00420314,extended,00400040
 patch=0,EE,20420320,extended,01000001
-patch=0,EE,20144160,extended,00000000
+patch=0,EE,2047D420,extended,00000150
+patch=0,EE,2047D424,extended,02800101
+patch=0,EE,2047D444,extended,02800000
+patch=0,EE,2047D440,extended,01000001
+patch=0,EE,20144160,extended,A2070023
+patch=0,EE,202D71F8,extended,A6230000
+patch=0,EE,202D7124,extended,AC83403C
 patch=0,EE,201437B8,extended,241B008C
 patch=0,EE,20143834,extended,A2000038
 patch=0,EE,20143844,extended,A21B0010
 
-[Experimental Unlock all characters, etc, warning-jap-]
+[Native widescreen + 2da.s !disable other Wcodes!]
+gsaspectratio=16:9
+author=Felixthecat1970
+comment=b1, calls f.s native mode, missing corrections, some bugs
+patch=1,EE,20129EEC,extended,241B0001
+patch=1,EE,20129FA8,extended,A39B8A0C
+patch=1,EE,20142CA4,extended,241B0002
+patch=1,EE,20142DF4,extended,A39B8A0C
+patch=1,EE,202C5B7C,extended,24040002
+patch=1,EE,202DB2B0,extended,24040002
+patch=1,EE,202BD964,extended,24040002
+patch=1,EE,202D8E70,extended,241B0002
+patch=1,EE,202D8F58,extended,A39B8A0C
+
+[Unlock all characters, etc, warning-jap -Experimental]
 author=felixthecat1970
 comment=!!警告: これはあなたのPS2メモリーカードのセーブデータを変更します。テストの前にバックアップを取ってください!!
 patch=0,EE,202ABAD4,extended,240300E1
