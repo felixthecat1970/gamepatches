@@ -1,36 +1,43 @@
 gametittle=DragonBall Z - Budokai 3 - Collector's Edition (Europe) (En,Ja,Fr,De,Es,It) SLES_533.46;1, Game CRC = 4E0D7BDE
 
-[V2 PAL to Native NTSC60hz/60fps, others]
+[v3 60hz/60fps progessive scan 640x448p]
 author=felixthecat1970
-comment=v2 call NTSC 60hz video mode, others
-patch=0,EE,003BC300,extended,00000002
+comment=v3, others f., stable
+patch=0,EE,103BC300,extended,00000050
+patch=0,EE,203BC320,extended,01000001
+patch=0,EE,003BC314,extended,00000040
+patch=0,EE,203BC324,extended,02800000
 patch=0,EE,103BC328,extended,000001C0
 patch=0,EE,0042CEF4,extended,00000000
 patch=0,EE,002F18E8,extended,24030002
-patch=0,EE,202945F8,extended,241B000C
-patch=0,EE,202946E4,extended,A03BF5C9
-patch=0,EE,20287E4C,extended,24020026
 
-[V2 Progressive scan mode + sharp mode + 640x448p]
+[Experimental Sharp mode + 640x448p--enable v3 too--]
 author=felixthecat1970
-comment=v2 Rebuild progressive scan video, extend internal resolution
-patch=0,EE,103BC300,extended,00000150
-patch=0,EE,203BC320,extended,01000001
-patch=0,EE,20149E9C,extended,00000000
-patch=0,EE,203BC324,extended,02800000
-patch=0,EE,203BC304,extended,02800101
+comment=v3 sharp, some bugs.
+patch=1,EE,103BC300,extended,00000150
+patch=1,EE,203BC304,extended,02800101
+patch=1,EE,20149E9C,extended,00000000
 patch=0,EE,201494F8,extended,241B008C
-patch=0,EE,20149578,extended,A2000038
-patch=0,EE,20149588,extended,A21B0010
+patch=0,EE,2014954C,extended,A2000038
+patch=0,EE,20149564,extended,A21B0010
+patch=0,EE,20149578,extended,241B0002
 
-[Experimental NTSC 60hz sharp mode]
-author=felixthecat1970
-comment=should work same as pmode but NTSC signal
-patch=0,EE,103BC300,extended,00000102
-patch=0,EE,203BC320,extended,00010001
-patch=0,EE,20149E9C,extended,A2000023
-
-[Experimental Unlock all characters, etc in game]
+[Experimental Unlock all in game--backup saves before test--]
 author=felixthecat1970
 comment=!!Warning this change your memory card saves, backup before test!! 
 patch=0,EE,201F51D8,extended,24050001
+
+[Unlock widescreen mode Beta1--disable other wide codes--]
+gsaspectratio=16:9
+author=Felixthecat1970
+comment=b1, enable in game 16:9, bugs, need corrections
+patch=1,EE,20149DB0,extended,241B0001
+patch=1,EE,20130EFC,extended,241B0001
+patch=1,EE,20131814,extended,A39B876C
+patch=1,EE,20131C08,extended,241B0002
+patch=1,EE,20131C14,extended,A39B876C
+patch=1,EE,20288414,extended,A39B876C
+patch=1,EE,202CC9C4,extended,24040002
+patch=1,EE,202922BC,extended,24040002
+patch=1,EE,202F7FBC,extended,24040002
+patch=1,EE,2026CB80,extended,24040002
