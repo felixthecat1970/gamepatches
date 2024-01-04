@@ -1,0 +1,35 @@
+gametitle=Legend of Spyro, The - The Eternal Night (Russia) -Легенда о Спайро: Вечная Ночь- SLES_548.16;1) Game CRC = 0xC95F0198
+
+[Разблокировать FPS]
+author=Felixthecat1970
+comment=по умолчанию PAL=50fps или NTSC\Progressive s. 60fps (падение кадров)
+patch=0,EE,201242FC,extended,3C01008D
+patch=0,EE,20124300,extended,9022CC34
+
+[B1, NTSC60hz Разблокировать]
+author=Felixthecat1970
+comment=используйте R3 для пропуска FMV, иначе видео может выйти из строя (требуется замена файлов)
+patch=0,EE,20124A14,extended,24050280
+patch=0,EE,20124A18,extended,24040001
+patch=0,EE,20124A1C,extended,240601C0
+patch=0,EE,20124A30,extended,24050001
+patch=0,EE,1086D408,extended,0030355F
+patch=1,EE,E001FFFB,extended,00944DD2
+patch=1,EE,01F34F80,extended,00000001
+
+[Постепенное сканирование --включить B1--]
+author=Felixthecat1970
+comment=меньше размытия, используйте R3 для пропуска FMV, иначе видео может выйти из строя
+patch=0,EE,20124A30,extended,24050004
+patch=0,EE,20122424,extended,24050002
+patch=0,EE,20122438,extended,00000000
+patch=0,EE,20122444,extended,00000000
+patch=0,EE,20122460,extended,00000000
+patch=0,EE,20122474,extended,00000000
+
+[Принудительный режим широкоформатного экрана]
+gsaspectratio=16:9
+author=Felixthecat1970
+comment=Обход настроек BIOS
+patch=0,EE,201F025C,extended,00000000
+

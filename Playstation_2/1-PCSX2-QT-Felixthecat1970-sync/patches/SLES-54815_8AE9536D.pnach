@@ -1,15 +1,40 @@
 gametitle=Legend of Spyro, The - The Eternal Night (Europe) (En,Fr,De,Es,It,Nl) SLES_548.15;1, Game CRC = 8AE9536D
 
-[FPS unlock + fix movies--disable other fps codes--]
+[Unblock v2 FPS -disable other fps codes--]
 author=Felixthecat1970
-comment=b1,fmv PAL desync for NTSC, searching workaround....
+comment=PAL=50fps or NTSC\Progressive 60fps (Heavy EE = framedrops) + fmv sync w.a
 patch=0,EE,2017740C,extended,0000182D
 patch=0,EE,2012437C,extended,3C01008D
 patch=0,EE,20124380,extended,9022C8B4
-patch=0,EE,201F0370,extended,A03161F0
 
-[Force widescreen]
+[B1, NTSC60hz unlock]
+author=Felixthecat1970
+comment=use R3 skip FMV or videos will crash (need file reemplacement)
+patch=0,EE,10124A94,extended,24050280
+patch=0,EE,20124A9C,extended,240601C0
+patch=0,EE,20124A98,extended,24040001
+patch=0,EE,20124AB0,extended,24050001
+patch=0,EE,2044E0C8,extended,10400003
+patch=0,EE,20221F2C,extended,10400009
+patch=0,EE,201F0370,extended,A03161F0
+patch=0,EE,1086D388,extended,0030355F
+patch=1,EE,E001FFFB,extended,00944A52
+patch=1,EE,01F36280,extended,00000001
+
+[Progressive scan --enable B1--]
+author=Felixthecat1970
+comment=less blur, use R3 skip FMV or videos will crash (need file reemplacement)
+patch=0,EE,20124AB0,extended,24050004
+patch=0,EE,201224AC,extended,00000000
+patch=0,EE,201224B8,extended,00000000
+patch=0,EE,201224C4,extended,00000000
+patch=0,EE,201224E0,extended,00000000
+patch=0,EE,201224F4,extended,00000000
+patch=0,EE,2012CA98,extended,241B0002
+patch=0,EE,2012CAEC,extended,FC3B0020
+
+[Force Widescreen mode]
 gsaspectratio=16:9
 author=Felixthecat1970
-comment=bypass bios setting
+comment=Bypass bios settings
 patch=0,EE,201F02DC,extended,00000000
