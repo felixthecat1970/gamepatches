@@ -2,32 +2,41 @@ gametittle=Dragon Ball Z: Infinite World (Europe) SLES_553.47;1) Game CRC = 0x33
 
 [V2 PAL to Native NTSC60hz/60fps, others]
 author=felixthecat1970
-comment=comment=v2 call NTSC 60hz video mode, others.
+comment=v2 stable, call NTSC 60hz video mode, others.
 patch=0,EE,10420300,extended,00000002
 patch=0,EE,10420328,extended,000001C0
 patch=0,EE,202D6CC4,extended,A6230000
-patch=1,EE,2049C2B0,extended,01000100
-patch=1,EE,2049C2B4,extended,00000101
-patch=1,EE,202D6CC0,extended,A6230020
+patch=0,EE,2049C2B0,extended,01000100
+patch=0,EE,2049C2B4,extended,00000101
+patch=0,EE,202D6CC0,extended,A6230020
 
-[V2 Progressive scan + sharp mode + 640x448p]
+[Progressive scan +sharp mode +640x448p --enable V2 code--]
 author=felixthecat1970
-comment=v2 Rebuild progressive scan video, extend internal resolution
+comment=v2 Rebuild progressive scan video,ex. resolution, sharper, others
 patch=0,EE,10420300,extended,00000150
 patch=0,EE,20420304,extended,02800101
 patch=0,EE,20420324,extended,02800000
 patch=0,EE,20420320,extended,01000001
 patch=0,EE,20144160,extended,00000000
 patch=0,EE,201437B8,extended,241B008C
-patch=0,EE,20143834,extended,A2000038
-patch=0,EE,20143844,extended,A21B0010
+patch=0,EE,20143808,extended,A2000038
+patch=0,EE,20143820,extended,A21B0010
+patch=0,EE,20143834,extended,241B0002
 
-[Experimental NTSC 60hz sharp mode]
+[Beta Unlock widesscreen--disable others wides codes--]
+gsaspectratio=16:9
 author=felixthecat1970
-comment=should work same as pmode but NTSC signal
-patch=0,EE,103BC300,extended,00000102
-patch=0,EE,203BC320,extended,00010001
-patch=0,EE,20144160,extended,A2000023
+comment=b1, missing corrections 
+patch=1,EE,2014931C,extended,A3918A0C
+patch=1,EE,20129380,extended,241B0001
+patch=1,EE,2012938C,extended,A39B8A0C
+patch=1,EE,2012A09C,extended,241B0002
+patch=1,EE,2012A0A8,extended,A39B8A0C
+patch=1,EE,202BD7B4,extended,24040002
+patch=1,EE,202B1AEC,extended,24040002
+patch=1,EE,202C57FC,extended,24040002
+patch=1,EE,202DAC60,extended,24040002
+patch=1,EE,202DB00C,extended,A39B8A0C
 
 [Experimental Unlock all characters, etc in game]
 author=felixthecat1970
