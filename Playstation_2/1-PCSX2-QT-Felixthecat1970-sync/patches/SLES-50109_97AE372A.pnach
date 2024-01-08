@@ -1,0 +1,9 @@
+gametitle=7 Blades (Europe) (En,Fr,De) SLES_501.09;1) Game CRC = 0x97AE372A
+
+[b1 Unlock FPS to 50fps]
+author=Felixthecat1970
+comment=missing 3d speed logic corrections, 
+patch=0,EE,2038F8DC,extended,10750006
+patch=0,EE,2051BB2C,extended,3E99999A
+patch=0,EE,2051BB28,extended,3E99999A
+patch=0,EE,0036565C,extended,3C013F00

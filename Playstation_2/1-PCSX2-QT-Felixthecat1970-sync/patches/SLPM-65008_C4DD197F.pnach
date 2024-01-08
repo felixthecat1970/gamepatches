@@ -1,0 +1,9 @@
+gametitle=7 Blades (Japan) セブン・ブレイズ SLPM_650.08;1) Game CRC = 0xC4DD197F sha1 faa45d3fa1d382b6f78ad31463981382885f24c4
+
+[b1 Unlock FPS to 60fps]
+author=Felixthecat1970
+comment=missing 3d speed logic corrections, framedrops use EE overc.
+patch=0,EE,20389124,extended,10750006
+patch=0,EE,003A77A8,extended,3C013F00
+patch=0,EE,003622B4,extended,3C013F00
+patch=0,EE,003A7754,extended,3C013F00
