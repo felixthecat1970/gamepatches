@@ -1,0 +1,6 @@
+gametitle=Assault Suits Valken (Europe) SLES_532.33;1) Game CRC = 0x1E177BBC - 579A4571
+
+[Unlock Fullframe mode - Progressive scan]
+author=Felixthecat1970
+comment=disable selctor-multi elf
+patch=0,EE,2011D908,extended,00000000
