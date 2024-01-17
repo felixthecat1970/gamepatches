@@ -1,0 +1,22 @@
+gametitle=Berserk - Millennium Falcon Hen - Seima Senki no Shou (Japan) / (wesker90 translation 1.1) SLPM_656.88;1) Game CRC = 0x9685E636
+
+[Unblock Full Frame mode]
+author=Felixthecat1970
+comment=v4 revised, clean sharp mode, PCRTCOverscan=1 cause 2d screen bug.
+patch=0,EE,101F358C,extended,240601C0
+patch=0,EE,201F359C,extended,0000582D
+patch=0,EE,20192E00,extended,AE1B0014
+patch=0,EE,20192CEC,extended,241B0001
+patch=0,EE,20191C90,extended,0000182D
+patch=0,EE,20192618,extended,00000000
+patch=0,EE,20192638,extended,00000000
+patch=0,EE,20192658,extended,00000000
+patch=0,EE,20192678,extended,00000000
+
+[B2 unblock FPS to 60 - use L3=60 R3=30]
+author=Felixthecat1970
+comment=b2, bugs, enemy movement, combos is hard, others.
+patch=1,EE,D03DC4C2,extended,FFFD
+patch=1,EE,003B408C,extended,01
+patch=1,EE,D03DC4C2,extended,FFFB
+patch=1,EE,003B408C,extended,00
