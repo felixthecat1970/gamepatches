@@ -1,0 +1,23 @@
+gametitle=Tales of the Abyss (USA) (Undub) (v2.5) crc=045D77E9
+
+[B1 unlock fps in maps\scenes\dungeons other areas]
+author=Felixthecat1970
+comment=B1, still speedup, need correct speed reg, add less blur.
+patch=0,EE,202160C4,extended,0000182D
+patch=0,EE,20217384,extended,0000182D
+patch=0,EE,20215BBC,extended,0000102D
+patch=0,EE,10507D34,extended,00000003
+patch=0,EE,0033F7BC,extended,2403003C
+patch=0,EE,0032D9D0,extended,2404003C
+patch=0,EE,00215BD4,extended,2402003C
+patch=0,EE,2032D958,extended,3C1B422B
+patch=0,EE,2032D960,extended,277BEFFF
+patch=0,EE,2032D968,extended,AC5B0064
+
+[B1 Official "partial" widescreen]
+gsaspectratio=16:9
+author=Felixthecat1970
+comment=image was zoomed, add zoom correction still miss parts side geom.
+patch=0,EE,2032DA48,extended,241B0001
+patch=0,EE,2032DB00,extended,A05B0060
+patch=0,EE,0019435C,extended,3C013F40
