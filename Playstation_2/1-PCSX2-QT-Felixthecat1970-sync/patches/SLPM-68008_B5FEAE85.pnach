@@ -1,0 +1,9 @@
+gametitle=Virtua Fighter 10th Anniversary [NTSC-J] [SLPM-68008]
+
+[Enable full frame mode]
+author=Felixthecat1970
+comment=v1, 640\512x224 to 640\512x448
+patch=1,EE,203A18B8,extended,0000102D
+patch=1,EE,203A5644,extended,0000382D
+patch=1,EE,203A5274,extended,00A32825
+patch=1,EE,203A5318,extended,00A32825
