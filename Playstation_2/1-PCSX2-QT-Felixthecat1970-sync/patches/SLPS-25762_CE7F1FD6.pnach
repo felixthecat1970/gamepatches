@@ -1,0 +1,7 @@
+gametitle=Metal slug complete japan SLPS_257.62;1) Game CRC = 0xCE7F1FD6
+
+[Less blur]
+author=Felixthecat1970
+comment=pmode possible- but unnesesary, multiple crc need rework
+patch=0,EE,201A0DC0,extended,0000382D
+patch=0,EE,1019D6B0,extended,FA00
