@@ -1,0 +1,25 @@
+gametitle=Metal Gear Solid 3 - Subsistence (USA) (En,Es) (Disc 2) (Persistence Disc)
+
+[60 FPS v2 + Cutscenes - less blurry]
+author=Felixthecat1970
+comment=override fps lock functions calls
+patch=1,EE,20145830,extended,0C03FFE8
+patch=1,EE,200FFFA0,extended,241B0001
+patch=1,EE,200FFFA4,extended,145B0008
+patch=1,EE,200FFFA8,extended,00000000
+patch=1,EE,200FFFAC,extended,149B0006
+patch=1,EE,200FFFB0,extended,00000000
+patch=1,EE,200FFFB4,extended,161B0004
+patch=1,EE,200FFFB8,extended,00000000
+patch=1,EE,200FFFBC,extended,0000102D
+patch=1,EE,200FFFC0,extended,0000202D
+patch=1,EE,200FFFC4,extended,0000802D
+patch=1,EE,200FFFC8,extended,03E00008
+patch=1,EE,20145570,extended,24060001
+
+[Widescreen alternate]
+author=Felixthecat1970
+comment=disable other wide patch
+gsaspectratio=16:9
+patch=1,EE,201284F0,extended,3C1B3F40
+patch=1,EE,20128514,extended,449BA000
