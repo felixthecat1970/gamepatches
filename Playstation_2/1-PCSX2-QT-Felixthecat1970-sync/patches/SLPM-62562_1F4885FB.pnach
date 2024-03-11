@@ -1,0 +1,8 @@
+gametitle=Psyvariar 2 - Ultimate Final (Japan) SLPM_625.62;1) Game CRC = 0x1F4885FB
+
+[Full frame mode test]
+author=Felixthecat1970
+comment=multi elf, graphic bug related to emulation
+patch=0,EE,00103194,extended,24040804
+patch=0,EE,202BC28C,extended,3C0701C0
+patch=0,EE,202B5358,extended,24020046

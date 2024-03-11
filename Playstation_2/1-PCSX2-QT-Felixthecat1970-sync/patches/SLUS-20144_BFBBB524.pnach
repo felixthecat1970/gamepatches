@@ -1,0 +1,8 @@
+gametitle=Metal Gear Solid 2 (USA)
+
+[60 FPS Cutscenes - less blurry-TEST]
+author=Felixthecat1970
+comment=override some values test - widescreen miss effects correction
+patch=0,EE,20100090,extended,3C1B0019
+patch=0,EE,2013EA9C,extended,A360FDA0
+patch=0,EE,0011D4EC,extended,24A30032

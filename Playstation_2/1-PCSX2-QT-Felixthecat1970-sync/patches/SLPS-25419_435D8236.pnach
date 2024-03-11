@@ -1,0 +1,8 @@
+gametitle=Kidou Senshi Gundam - Gundam vs. Z Gundam (Japan) SLPS_254.19;1) Game CRC = 0x435D8236
+
+[Autoenable progressive scan]
+author=Felixthecat1970
+comment=not need for combo button
+patch=0,EE,002AED78,extended,24060002
+patch=0,EE,20224FAC,extended,241B0002
+patch=0,EE,202AFB0C,extended,FC3B0020
