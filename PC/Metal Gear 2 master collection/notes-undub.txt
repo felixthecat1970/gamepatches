@@ -1,0 +1,25 @@
+By felixthecat1970 10/10/2024
+looking this release seems only can use USA audio with us/ge/fr/es langs and JAP audio with japanese tex only.
+
+Cheking files from this release seems big .dat files (PS2 -PS3 edtions) are unpacked, bluepoint uses file call to master folder "us" and japanese version calls "jp" himself  and "us" folder for master equal fields in plain .txt files, but master call us version is "eu" folder, so redirec eu txt file calls to jp instead  changes audio to japan, sadly the us/eu text are sync with us voiceover so sub desync with jap audio will happen.
+
+Know bugs:
+subtitles desync with audio (wait till japanese audio ends for next line appears)
+boss names still in english cast (buried in unknow jp codec files) 
+some audio files calls are not equal for japanese and usa (expect possible crash or missing audio / text)
+
+Consider as beta, only tested tank chapter and plant intro only.
+
+Video test:
+https://youtu.be/-bboM3a2NPI
+
+Require:
+-https://store.steampowered.com/app/2131640/METAL_GEAR_SOLID_2_Sons_of_Liberty__Master_Collection_Version/
+
+-Japanese language pack instaled
+
+Install:
+download MGS2-undub-b1.7z and uncompress in game root (use steam for check install folder), reemplace files.
+
+Uninstall:
+use steam file check or download MGS2-original-v2.00.7z (for update 2.00) and uncompress in game root folder.
