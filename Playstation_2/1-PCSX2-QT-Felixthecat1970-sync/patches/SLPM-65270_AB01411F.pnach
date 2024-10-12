@@ -1,0 +1,17 @@
+gametitle=Virtua Fighter 4 - Evolution (Japan)
+
+[Full frame mode v3]
+author=Felixthecat1970
+comment=12/10/2024 update sharp backbuffer, disable pscan no correct spec 512x448 internal only, (looks same ntsc), fmv are interlaced use Deinterlacing=Adaptive (Bottom field firts...works 1x res only)
+patch=1,EE,202F82E4,extended,0000382D
+patch=1,EE,202F7F14,extended,00A32825
+patch=1,EE,202F7FB8,extended,00A32825
+
+[less blur expermental]
+author=Felixthecat1970
+comment=test, fmv interlaced notable?, little change?
+patch=1,EE,201B9F90,extended,0806E820
+patch=1,EE,2025A4F8,extended,0C0B1280
+patch=1,EE,2036EBC0,extended,0C0B1280
+patch=1,EE,20372CAC,extended,0C0B1280
+patch=1,EE,20256F80,extended,0C0B1280
