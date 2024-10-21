@@ -2,7 +2,7 @@ gametitle=Devil May Cry (USA) SLUS_202.16;1) Game CRC = 0x79B8A95F
 
 [Improvements]
 author=Felxithecat1970
-comment=No screen blur (preserve others effects), no interlaced v3
+comment=No screen blur (preserve others effects), v3
 patch=0,EE,00571E40,extended,001494D8
 patch=0,EE,2015C04C,extended,0000382D
 patch=0,EE,2015C068,extended,0000382D
