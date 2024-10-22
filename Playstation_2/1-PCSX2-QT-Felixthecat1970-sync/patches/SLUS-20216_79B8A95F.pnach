@@ -1,8 +1,8 @@
 gametitle=Devil May Cry (USA) SLUS_202.16;1) Game CRC = 0x79B8A95F
 
-[Improvements]
+[Improvements v3]
 author=Felxithecat1970
-comment=No screen blur (preserve others effects), no interlaced v3
+comment=No screen blur (preserve others effects) for upscaling 2x + ,change Graphics>Deinterlacing:No deinterlacing
 patch=0,EE,00571E40,extended,001494D8
 patch=0,EE,2015C04C,extended,0000382D
 patch=0,EE,2015C068,extended,0000382D
@@ -14,7 +14,7 @@ patch=0,EE,2015C0E0,extended,0000382D
 
 [No Hud]
 author=Felxithecat1970
-comment=R3=Off R2=ON - BOSSES cannot look health in battle
+comment=R3=Off R2=ON - BOSSES cannot show health in battle
 patch=1,EE,E0020004,extended,00765572 //R3 Disable Hud
 patch=1,EE,00752471,extended,00
 patch=1,EE,007524A9,extended,00
@@ -35,7 +35,7 @@ patch=0,EE,2015B110,extended,0000182D
 
 [Devil may cry series controller layout]
 author=Felxithecat1970
-comment=restore default button layout
+comment=restore default button layout to japanese version and all series
 patch=1,EE,2010C184,extended,0803F414
 patch=1,EE,200FD050,extended,00C0C821
 patch=1,EE,200FD054,extended,08043063

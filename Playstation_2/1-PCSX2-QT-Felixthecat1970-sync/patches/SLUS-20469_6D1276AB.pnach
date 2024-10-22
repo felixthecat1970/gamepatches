@@ -1,0 +1,5 @@
+gametitle=Xenosaga - Episode I - Der Wille zur Macht (USA) (UNDUB) crc=6D1276AB
+
+[ScanLineInterpolate off]
+author=felixthecat1970
+patch=0,EE,2022D860,extended,0000182D

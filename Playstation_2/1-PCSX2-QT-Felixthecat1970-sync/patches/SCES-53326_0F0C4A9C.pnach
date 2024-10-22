@@ -1,0 +1,14 @@
+gametitle=Shadow of the Colossus (Europe, Australia) (En,Fr,De,Es,It) SCES-53326 crc=0F0C4A9C
+
+[enable NTSC mode on boot]
+author=Felixthecat1970
+comment=fmv are in pal mode only, call fmv from pmode have bug (default)
+patch=1,EE,20100E2C,extended,0C03FFF4
+patch=1,EE,200FFFD0,extended,27BDFFF0
+patch=1,EE,200FFFD4,extended,FFBF0000
+patch=1,EE,200FFFD8,extended,DFBF0000
+patch=1,EE,200FFFDC,extended,3C1B001E
+patch=1,EE,200FFFE0,extended,A360C9D4
+patch=1,EE,200FFFE4,extended,08042A54
+patch=1,EE,200FFFE8,extended,27BD0010
+patch=1,EE,2138BEC8,extended,0000102D

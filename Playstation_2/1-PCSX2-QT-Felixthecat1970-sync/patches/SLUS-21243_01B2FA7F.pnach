@@ -1,9 +1,9 @@
-gametitle=Metal Gear Solid 3 - Subsistence (USA) (En,Es) (Disc 2) (Persistence Disc)
+gametitle=Metal Gear Solid 3 - Subsistence (USA) (En,Es) (Disc 2)
 
-[60 FPS v2 + Cutscenes - less blurry]
+[60 FPS v3 + Cuts. alt.]
 author=Felixthecat1970
-comment=override fps lock functions calls
-patch=1,EE,20145830,extended,0C03FFE8
+comment=override fps lock functions calls, heavy fps drops need 300% overclock, enable graphics>advanced>"skip presenting duplicate frames", disable others 60 fps
+patch=1,EE,20145830,extended,0803FFE8
 patch=1,EE,200FFFA0,extended,241B0001
 patch=1,EE,200FFFA4,extended,145B0008
 patch=1,EE,200FFFA8,extended,00000000
@@ -14,12 +14,28 @@ patch=1,EE,200FFFB8,extended,00000000
 patch=1,EE,200FFFBC,extended,0000102D
 patch=1,EE,200FFFC0,extended,0000202D
 patch=1,EE,200FFFC4,extended,0000802D
-patch=1,EE,200FFFC8,extended,03E00008
-patch=1,EE,20145570,extended,24060001
+patch=1,EE,200FFFC8,extended,0805160E
+patch=1,EE,201453B4,extended,8DEB6DB8
 
-[Widescreen alternate]
+[30FPS v1 cap]
 author=Felixthecat1970
-comment=disable other wide patch
+comment=for performance or use with "lossless scaling tool" from steam, some framedrops use 130% overclock, disable all 60\30 fps codes, msx games also capped
+patch=1,EE,00145838,extended,240D0002
+patch=1,EE,201453B4,extended,8DEB6DB8
+
+[ScanLineInterpolate off]
+author=Felixthecat1970
+comment=less blur screen, bug in some interlaced effects like airplanes windows
+patch=1,EE,2014579C,extended,0803FFDC
+patch=1,EE,200FFF70,extended,241B0001
+patch=1,EE,200FFF74,extended,10DB0002
+patch=1,EE,200FFF78,extended,24AE0033
+patch=1,EE,200FFF7C,extended,24060001
+patch=1,EE,200FFF80,extended,080515E9
+
+[Widescreen alt. v1]
+author=Felixthecat1970
+comment=alternate code, Posteffects show ok, Disable others widescreen - black bar codes
 gsaspectratio=16:9
 patch=1,EE,201284F0,extended,3C1B3F40
 patch=1,EE,20128514,extended,449BA000

@@ -1,0 +1,9 @@
+gametitle=God Hand (USA) crc=6FB69282
+
+[sharp backbuffer]
+author=felixthecat1970
+comment=disable codes change screen like "No-interlacing"
+patch=0,EE,002BE190,extended,24050000
+patch=0,EE,002BE194,extended,24060050
+patch=0,EE,2030CD10,extended,240E0070
+patch=0,EE,2030CD8C,extended,00000000

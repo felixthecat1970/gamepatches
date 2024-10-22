@@ -1,0 +1,10 @@
+gametittle=Ape Escape 3 (Europe) (En,Fr,De,Es,It) SCES-53642 crc=53898FD0
+
+[partial ntsc vals test]
+author=felixthecat1970
+comments=fmv PAL? skips or use start for skips black screen, speed up some parts? need test unpack .bin and reemplace movies,
+patch=0,EE,20159CBC,extended,0000702D //call ntsc 1
+patch=0,EE,206CCDD8,extended,42700000 //float 50 val before e.p
+
+//ram.a 6CCDD8 float 50  shares langs vals
+//scegs 00403ED8

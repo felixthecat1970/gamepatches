@@ -1,0 +1,17 @@
+gametitle=ICO (Europe) (En,Fr,De,Es,It) SCES_507.60;1) Game CRC = 0x5C991F4E
+
+[Boot NTSC mode - no PAL selector]
+author=Felixtehcat1970
+comment=after save in game, language selector not appear again (default)
+patch=0,EE,0028F4C0,extended,00
+patch=0,EE,001B9768,extended,240700CA
+
+[Sharp backbuffer v2]
+author=Felixtehcat1970
+comment=for PCSX2 emulator, consoles unknow if work ok
+patch=0,EE,201126C4,extended,8C450008
+patch=0,EE,201126CC,extended,0000382D
+patch=0,EE,201125E8,extended,00E23825
+patch=0,EE,20112614,extended,A2220010
+patch=0,EE,20112644,extended,03E00008
+patch=0,EE,20258254,extended,0000102D

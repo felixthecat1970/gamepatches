@@ -1,8 +1,9 @@
 gametitle=Devil May Cry 3 - Dante's Awakening (Europe) (En,Fr,De,Es,It) (Special Edition) SLES_541.86;1) Game CRC = 0x18C9343F
 
-[Improvements]
+[Improvements v4]
 author=felixthecat1970
-comment=v3 change display buffer, NTSC 60hz, Unlock Japanese/Korean, screen blur off, s. code autounlock, others
+comment=alt widescreen 2s arts - hud (still missing tex correction some screen bugs \ Boot NTSC 60hz \ Unlock Japanese-Korean (in main options>language select invisible item after spanish > japanese > korean) and exit with ^ triangle button no navigate or change game options after or tlb miss - crash will happend, korean partial for Vergil mode \ screen blur off \ secret code autounlock level select enabled
+gsaspectratio=16:9
 patch=0,EE,201EE060,extended,0000202D
 patch=0,EE,00513830,extended,24420004
 patch=0,EE,2051368C,extended,AE210048
@@ -22,30 +23,10 @@ patch=0,EE,205602C4,extended,7BB00000
 patch=0,EE,205602C8,extended,03E00008
 patch=0,EE,20285324,extended,DFBF0030
 patch=0,EE,201AE8E0,extended,0000182D
-patch=0,EE,20340F84,extended,241B3FAA
+patch=0,EE,20340F84,extended,241B3FAA //require alt widescreen code
 patch=0,EE,20340FAC,extended,AE1B2E52
 patch=0,EE,00332364,extended,24030016
-//patch=0,EE,001EE3D4,extended,2A020001
-
-[Call progressive NTSC mode]
-author=felixthecat1970
-comment=Special partial pmode for no interlaced, some transition 2d bugs
-patch=0,EE,201EE264,extended,0000182D
-
-[No HUD]
-author=felixthecat1970
-comment=comment=v1, disables game HUDS, press start starting battle, againg for show orbs, health
-patch=0,EE,2023BF9C,extended,A0620009
-patch=0,EE,2023BD30,extended,A0400009
-patch=0,EE,2023CA18,extended,A0620009
-patch=0,EE,2023EF00,extended,00000000
-patch=0,EE,202407C0,extended,00000000
-patch=0,EE,2023A090,extended,00000000
-
-[New Widescreen]
-author=felixthecat1970
-comment=New reg, 2d art positions, missing text correction
-patch=0,EE,201AC7A4,extended,3C1B3F40
+patch=0,EE,201AC7A4,extended,3C1B3F40 //start alt widescreen code
 patch=0,EE,201AC7A8,extended,AC7B0060
 patch=0,EE,201AC814,extended,3C1B3F40
 patch=0,EE,201AC818,extended,AC9B0060
@@ -57,10 +38,26 @@ patch=0,EE,202E5A8C,extended,240801C0
 patch=0,EE,2021527C,extended,0000102D
 patch=0,EE,2023EC54,extended,A0209A0D
 
-[Experimental]
+[No HUD v2]
 author=felixthecat1970
-comment=skip invalidcache and syncache -bugs can happend-
+comment=comment=v1, disable game HUDS, press start starting battle, againg for show orbs, health
+patch=0,EE,2023BF9C,extended,A0620009
+patch=0,EE,2023BD30,extended,A0400009
+patch=0,EE,2023CA18,extended,A0620009
+patch=0,EE,2023EF00,extended,00000000
+patch=0,EE,202407C0,extended,00000000
+patch=0,EE,2023A090,extended,00000000
+
+[Experimental Call progressive NTSC mode test]
+author=felixthecat1970
+comment=partial pmode for no interlaced, for test updscaling , some transition 2d bugs
+patch=0,EE,201EE264,extended,0000182D
+
+[Experimental functions disable test]
+author=felixthecat1970
+comment=skip invalidcache and syncache functions -bugs can happend-
 patch=0,EE,2010E5D8,extended,03E00008
 patch=0,EE,2010E5DC,extended,00000000
 patch=0,EE,2010E718,extended,03E00008
 patch=0,EE,2010E71C,extended,00000000
+patch=0,EE,001EE3D4,extended,2A020001 //scesyncv test disable lops 14 main code 
