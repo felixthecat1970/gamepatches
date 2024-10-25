@@ -1,0 +1,20 @@
+gametitle=Marvel vs. Capcom 2 - New Age of Heroes (Japan) SLPM_622.27;1) Game CRC = 0x5BC8C9E8
+
+[Improvements v2]
+author=Felxithecat1970
+comment=!!注意-Warning if you have save backup progress, save it, this can alter save progress!!, Enable full frame mode to 640x448 \ autoboot progressive scan mode (this also call dithering for disable use Dithering=none or force 32bit) \ Unlock all characters, (reemplace interlaced codes not needed, no use widescreen code or bugs will display)
+gsaspectratio=10:7
+patch=0,EE,003EE1D8,extended,24020002
+patch=0,EE,203EE1DC,extended,AC22F3C0
+patch=0,EE,203EE1EC,extended,AC20F3DC
+patch=0,EE,203EE714,extended,0000282D
+patch=0,EE,003EE718,extended,24060050
+patch=0,EE,203EE720,extended,24070001
+patch=0,EE,203EEB3C,extended,1040FFF6
+patch=0,EE,001008A8,extended,24840033
+patch=0,EE,203D8C28,extended,3C03F8FF
+patch=0,EE,203D8C2C,extended,3C0207FF
+patch=0,EE,203D8C30,extended,3464FFFF
+patch=0,EE,203D8C34,extended,3443FFFF
+patch=0,EE,2012FD50,extended,241B0006
+patch=0,EE,2012FD80,extended,A23B0000

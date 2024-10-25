@@ -2,7 +2,7 @@ gametitle=Marvel vs. Capcom 2 - New Age of Heroes (USA) CRC=4D228733
 
 [Improvements v2]
 author=Felxithecat1970
-comment=Enable full frame mode to 640x448 \ autoboot progressive scan mode (this also call dithering for disable use Dithering=none or force 32bit) \ Unlock all characters, (reemplace interlaced codes not needed, no use widescreen code or bugs will display)
+comment=!!Warning if you have save backup progress, save it, this can alter save progress!!, Enable full frame mode to 640x448 \ autoboot progressive scan mode (this also call dithering for disable use Dithering=none or force 32bit) \ Unlock all characters, (reemplace interlaced codes not needed, no use widescreen code or bugs will display)
 gsaspectratio=10:7
 patch=0,EE,003EC218,extended,24020002
 patch=0,EE,203EC21C,extended,AC22BC00
