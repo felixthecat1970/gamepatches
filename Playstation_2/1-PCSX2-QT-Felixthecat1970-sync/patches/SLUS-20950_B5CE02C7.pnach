@@ -1,0 +1,9 @@
+gametitle=Capcom Fighting Evolution (USA) SLUS_209.50;1) Game CRC = 0xB5CE02C7
+
+[Enable autoprogressive]
+author=Felixthecat1970
+comment=auto enable progressive scan, not need combo button
+patch=0,EE,201D214C,extended,241B0002
+patch=0,EE,201D217C,extended,A07B0002
+patch=0,EE,202A9438,extended,00000000
+patch=0,EE,202A944C,extended,24A40002 

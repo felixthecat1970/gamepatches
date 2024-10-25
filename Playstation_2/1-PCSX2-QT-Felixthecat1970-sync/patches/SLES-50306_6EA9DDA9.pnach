@@ -1,0 +1,30 @@
+//Resident Evil - Code - Veronica X (Europe) (En,Fr,De,Es) SLES_503.06;1) Game CRC = 0x6EA9DDA9
+
+[test imrovements]
+comments=bugs speed up
+patch=0,EE,002D25D4,extended,24060050 //a2 2=ntsc 50=pmode  -of 1D2654        
+patch=0,EE,202D25D0,extended,0000282D //a1        of 1D2650                   
+patch=0,EE,202D25E0,extended,00000000 //a3         of 1D2660                  
+patch=0,EE,201002F4,extended,10A40029 //bracnh change   of 00374              
+patch=0,EE,1010030C,extended,260202D0 //hack main f. size                     
+patch=0,EE,00100370,extended,26450023 //19                                   
+patch=0,EE,10100398,extended,64E30134 //27c                                  
+patch=0,EE,102E90A0,extended,24420134 //27c last wr
+patch=0,EE,202F3D60,extended,1443FFFA //vsync fix pmode fmv                     
+patch=0,EE,002D2678,extended,3C0A0002 //ntsc vals
+patch=0,EE,002D267C,extended,3C010027
+patch=0,EE,002E9084,extended,24420020
+//patch=0,EE,202D2624,extended,0000482D //some reduction screen blur by swap buffer f. fade bugs fmv flicker pal only
+
+//patch=0,EE,002D2678,extended,3C0A0002 //better cancel wr register 0000000     
+//patch=0,EE,002D267C,extended,3C010082 //2Anew math pass                       
+//patch=0,EE,102D2680,extended,342C3000 //C000                                  
+//patch=0,EE,2029CBD0,extended,0000182D //setadjustdisplay off                  
+//patch=0,EE,202D27CC,extended,0C0B49FD //jal skip wr                           
+//patch=0,EE,202D27D0,extended,00000000 //rewrite values size screen null                                        
+//patch=0,EE,202D27FC,extended,00000000                                         
+//patch=0,EE,002EA1B8,extended,3C023F40 //80 pass widescreen mode njsetview
+//patch=0,EE,00336176,extended,000001C0 //fmv 1er val posmod playstarmovieex symbol f.
+//patch=0,EE,2029C504,extended,00000000 // clear float to full vertical video
+//patch=0,EE,00336168,extended,000001C0 //1er video zombie helicomter
+//patch=0,EE,0033615E,extended,000001C0

@@ -3,5 +3,14 @@ gametitle=Street Fighter III - 3rd Strike SLPM_656.21;1) Game CRC = 0x65A15D7C
 [Extend resolution to 640x448]
 author=felixthecat1970
 comment=v2 check, correct some values
-patch=0,EE,2038458C,extended,0000402D
+patch=0,EE,2038458C,extended,24080003 //t0=3/0 hor 640
 patch=0,EE,20383380,extended,AC46D558
+
+//notes
+//parameters in addr 0038457C for main function in 00383350
+//a0=2 define dither - color format others 
+//a3=1-2 define ntsc  pal ?
+//a2=changes frame,field mode ? missiing others parmas?
+//t0=1 default 3 define path size hor to 640  2=part of field mode 224?, main function pass anothers param need hack 
+//a1 ? unknow
+//ram area result defines buffer change 0065D558 =0,1 others? unknow 

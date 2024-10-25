@@ -1,0 +1,17 @@
+gametitle=Devil May Cry (Europe) (En,Fr,De,Es,It) crc=7D8F539A SLES-50358
+
+[Disable blur only for main screen]
+author=felixthecat1970
+comment=other post effects preserved, for scaling 2x
+patch=1,EE,0057F640,extended,001495B8
+
+[experimental NTSC values test]
+author=felixthecat1970
+comment=fmv crash - disabled, realtime cutscenes audio desync, other bugs
+patch=1,EE,0015BAC8,extended,24060002 // 3 pass ntsc
+patch=1,EE,2015B45C,extended,AC312160 // disable movie play
+patch=1,EE,0015C784,extended,34630203 // ntsc vals correction
+patch=1,EE,2015C790,extended,00000000 
+patch=1,EE,1015C7A8,extended,3463227C
+patch=1,EE,0015C9F8,extended,24A50032 // subs area correction
+patch=1,EE,1015CA40,extended,2484027C

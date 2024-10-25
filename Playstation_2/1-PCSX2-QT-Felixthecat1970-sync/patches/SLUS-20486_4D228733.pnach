@@ -1,15 +1,12 @@
 gametitle=Marvel vs. Capcom 2 - New Age of Heroes (USA) CRC=4D228733
 
-[Improvements]
+[Improvements v2]
 author=Felxithecat1970
-comment=Use full frame mode 640x448, Unlock all chara, (no use interlaced or widescreen with this code)
+comment=Enable full frame mode to 640x448 \ autoboot progressive scan mode (this also call dithering for disable use Dithering=none or force 32bit) \ Unlock all characters, (reemplace interlaced codes not needed, no use widescreen code or bugs will display)
+gsaspectratio=10:7
 patch=0,EE,003EC218,extended,24020002
 patch=0,EE,203EC21C,extended,AC22BC00
 patch=0,EE,203EC22C,extended,AC20BC1C
-patch=0,EE,203EC754,extended,0000282D
-patch=0,EE,003EC758,extended,24060050
-patch=0,EE,203EC760,extended,24070001
-patch=0,EE,001008A8,extended,24840033
 patch=0,EE,203ECB7C,extended,1040FFF6
 patch=0,EE,203ECB80,extended,AC20BC38
 patch=0,EE,203D6C4C,extended,3C03F8FF
@@ -18,3 +15,7 @@ patch=0,EE,203D6C54,extended,3464FFFF
 patch=0,EE,203D6C58,extended,3443FFFF
 patch=0,EE,2012F740,extended,241B0006
 patch=0,EE,2012F770,extended,A23B0000
+patch=0,EE,203EC754,extended,0000282D
+patch=0,EE,003EC758,extended,24060050
+patch=0,EE,203EC760,extended,24070001
+patch=0,EE,001008A8,extended,24840033

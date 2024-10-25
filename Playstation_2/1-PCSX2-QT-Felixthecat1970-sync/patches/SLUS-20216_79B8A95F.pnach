@@ -1,20 +1,9 @@
 gametitle=Devil May Cry (USA) SLUS_202.16;1) Game CRC = 0x79B8A95F
 
-[Improvements v3]
+[Disable screen blur v3]
 author=Felxithecat1970
-<<<<<<< HEAD
-comment=No screen blur (preserve others effects) for upscaling 2x + ,change Graphics>Deinterlacing:No deinterlacing
-=======
-comment=No screen blur (preserve others effects), v3
->>>>>>> 397a53da83245931f62b5ef58b2fa67a2a0aad9a
+comment=No screen blur (preserve others effects) for upscaling 2x +
 patch=0,EE,00571E40,extended,001494D8
-patch=0,EE,2015C04C,extended,0000382D
-patch=0,EE,2015C068,extended,0000382D
-patch=0,EE,2015C088,extended,0000382D
-patch=0,EE,2015C08C,extended,0000382D
-patch=0,EE,2015C0A8,extended,0000382D
-patch=0,EE,2015C0C4,extended,0000382D
-patch=0,EE,2015C0E0,extended,0000382D
 
 [No Hud]
 author=Felxithecat1970
@@ -64,3 +53,11 @@ patch=1,EE,200FD098,extended,0061280B
 patch=1,EE,200FD09C,extended,A328000E
 patch=1,EE,200FD0A0,extended,03E00008
 patch=1,EE,200FD0A4,extended,A7250002
+
+//patch=0,EE,2015C04C,extended,0000382D //experimetal scehalf.
+//patch=0,EE,2015C068,extended,0000382D
+//patch=0,EE,2015C088,extended,0000382D
+//patch=0,EE,2015C08C,extended,0000382D
+//patch=0,EE,2015C0A8,extended,0000382D
+//patch=0,EE,2015C0C4,extended,0000382D
+//patch=0,EE,2015C0E0,extended,0000382D

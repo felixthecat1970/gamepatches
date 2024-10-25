@@ -1,0 +1,10 @@
+gametitle=Rogue Galaxy (Europe) (Undub) SCES-54552 crc=CBB4B383
+
+[Boot NTSC - Despaletized - ScanLineInterpolate\OFF]
+author=Felixthecat1970
+comment=autoboot NTSC always, preserve langs sel. - less screen blur for scaling 2x+
+patch=0,EE,001C2330,extended,24040002
+patch=0,EE,201C233C,extended,0C071828
+patch=0,EE,201C1FE4,extended,241B0005
+patch=0,EE,201C1C54,extended,A0DBB6D0
+patch=0,EE,20144AAC,extended,0000182D
