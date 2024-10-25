@@ -1,22 +1,28 @@
 gametitle=Resident Evil - Code - Veronica X (USA)
 
-[test]
-patch=0,EE,002CB0A4,extended,24060050 //mode change
+[boot progressive 640x480p]
+author=felixthecat1970
+comments=
+patch=0,EE,002CB0A4,extended,24060050
 patch=0,EE,202CB0A0,extended,0000282D
 patch=0,EE,202CB0B0,extended,00000000
-patch=0,EE,201002F4,extended,10A40029 //scegssize change to ntsc val path
-patch=0,EE,1010030C,extended,260202D0 //9ff
-patch=0,EE,00100370,extended,26450023 //19
-patch=0,EE,10100398,extended,64E30134 //27c
-patch=0,EE,102E1AF0,extended,24420134 //27c after 1er pass last write correction in njadjustdisplay
-patch=0,EE,202EB944,extended,00000000 //fmv fix
-//patch=0,EE,202CB0F4,extended,0000482D //some reduction screen blur by swap buffer - fade effect bug, some flicker
+patch=0,EE,201002F4,extended,10A40029
+patch=0,EE,1010030C,extended,260202D0
+patch=0,EE,00100370,extended,26450023
+patch=0,EE,10100398,extended,64E30134
+patch=0,EE,102E1AF0,extended,24420134
+patch=0,EE,202EB944,extended,00000000
+
+[experimental test]
+author=felixthecat1970
+comments=reduction movement blur by buffer f. changes, fade bugs fmv flicker for pal only
+patch=0,EE,202CB0F4,extended,0000482D //some reduction screen blur by buffer change - fade effect bug, some flicker
 
 [widescreen alt v1]
 comment=njsetview wide call, possible missing vertical alig other videos after cementery
 gsaspectratio=16:9
-patch=0,EE,002E2C08,extended,3C023F40 //main call
-patch=0,EE,0032DD66,extended,E0 //fmv 1
+patch=0,EE,002E2C08,extended,3C023F40
+patch=0,EE,0032DD66,extended,E0
 patch=0,EE,0032DD54,extended,00
 patch=0,EE,0032DD58,extended,E0
 patch=0,EE,0032DD62,extended,00
