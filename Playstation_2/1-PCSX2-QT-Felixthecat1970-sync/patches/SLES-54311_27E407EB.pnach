@@ -1,0 +1,14 @@
+gametitle=Noddy and the Magic Book (Europe) (En,Fr,Pt,No,Da) crc=27E407EB SLES-54311
+
+[Enable full frame mode]
+author=felixthecat1970
+comment=clearer image screen (ver+ is 384 but internal native withow blurry postp.), maybe has bugs in interlaced effects?, disable other codes before test
+patch=0,EE,00456BD8,extended,24040001 //changes field mode
+patch=0,EE,20456C24,extended,0000202D //800
+patch=0,EE,20468DE8,extended,10000020 //bypass interlaced for fullframe m.
+patch=0,EE,20456BF0,extended,241B0040 //sharp backbuffer
+patch=0,EE,20456C34,extended,03681825
+patch=0,EE,20456C74,extended,2463FF7F //size correction
+
+//entry point 00400008
+//scegsr 00402378, game has NTSC code calls but missing some unknow registers, FMV is pal only
