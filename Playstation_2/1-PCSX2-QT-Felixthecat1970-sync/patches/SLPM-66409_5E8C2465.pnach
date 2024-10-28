@@ -1,0 +1,14 @@
+gametitle=Street Fighter Zero - Fighter's Generation (Japan) SLPM-66409 crc=5E8C2465
+
+[auto progressive scan - no scanlineinterpolate.]
+author=Felixthecat1970
+comment=not need combo button for p.scan, disabled scanline interpolate (less screen blur), recomended use "texture filtering=nearest" for pixel clean image and "native=10:7" aspect ratio.
+patch=0,EE,201492C4,extended,24040002
+patch=0,EE,00149F08,extended,24A40032
+patch=0,EE,20149EAC,extended,00000000 //in spec with common vals
+//patch=0,EE,201495B8,extended,AC8B0230 //experimental -change dispbf 
+
+//notes
+//scegs buildp 001004E8 / r.a params dpl 19D0018
+//00100230 scegsr
+//001495B8 inst//changes buffer dispfb1/2  1-2
