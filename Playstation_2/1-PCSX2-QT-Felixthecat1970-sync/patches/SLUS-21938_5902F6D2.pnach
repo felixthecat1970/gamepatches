@@ -1,0 +1,19 @@
+gametitle=Ben 10 - Ultimate Alien - Cosmic Destruction (USA) SLUS-21938 crc=5902F6D2
+
+[Enable native widescreen mode]
+author=felixthecat1970
+comment=widescreen is implemented in game code but disabled, this enable it by default. (disable other codes before test)
+gsaspectratio=16:9
+patch=0,EE,20100524,extended,AC628DA8
+
+[Experimental]
+author=felixthecat1970
+comment=less blur screen, for scaling 2x+
+patch=0,EE,202A82F4,extended,0000382D
+patch=0,EE,202A82FC,extended,0000402D
+
+
+//notes
+//scegsr. 00459D88
+//e.p 00100008
+//asasega fps unlock code addr 1002F4 by vsync skip, bugs with fmvs (fmv stutter) fixable
