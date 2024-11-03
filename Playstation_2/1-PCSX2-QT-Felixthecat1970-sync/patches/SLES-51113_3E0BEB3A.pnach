@@ -1,0 +1,23 @@
+gametitle=Zone of the Enders - The 2nd Runner - Special Edition (Europe) (En,Fr,De,Es,It) crc=3E0BEB3A SLES-51113
+
+[Scanlineinterpolate off]
+author=Felixthecat1970
+comment=less blur screen for scalng 2x+
+patch=0,EE,20129D38,extended,24060001
+patch=0,EE,2015C27C,extended,24060001
+patch=0,EE,20110810,extended,24060001
+patch=0,EE,2015BE2C,extended,24060001
+
+[Experimental enable native NTSC 60hz mode]
+author=Felixthecat1970
+comment=realtime cutscenes desync - skips frames (fast 3d engine speed, audio sync ntsc?), subtitles-fmv pal screen position? others fmv, gameplay play ok 60hz
+patch=0,EE,201001EC,extended,0000202D //call NTSC 60hz values engine, fmv
+
+//notes
+//size vals ram area 1C3A28
+//jap area vals 1FE1988 langs parser 00115E14
+//COMMON PASS IN CUTSCENES F. 00127B10
+//call tex wr ram 00113FF0 - 1EBEC0 ram area
+//test floats 3C0341C8 3C0241F0 3C034248 
+//00127B10 parser cutscene r.t?
+//1FB0F0 area counter - interrupts 24?   jap edition 1F8070 26?

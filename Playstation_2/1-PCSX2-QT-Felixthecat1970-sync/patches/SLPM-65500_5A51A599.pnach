@@ -1,0 +1,9 @@
+gametitle=Anubis - Zone of the Enders - Special Edition (Japan) SLPM-65500 crc=5A51A599
+
+[scanliteinterpolate off]
+author=felixthecat1970
+comment=less blurry screen for scaling 2x+
+patch=0,EE,201107C0,extended,24060001
+patch=0,EE,20129C78,extended,24060001
+patch=0,EE,2015A91C,extended,24060001
+patch=0,EE,2015AD6C,extended,24060001
