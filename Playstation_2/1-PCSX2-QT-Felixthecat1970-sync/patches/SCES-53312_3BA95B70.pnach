@@ -1,10 +1,24 @@
 gametitle=Soulcalibur III (Europe, Australia) (En,Fr,De,Es,It) (v2.00) SCES_533.12;1) Game CRC = 0x3BA95B70
 
-[enable progressive scan mode 480p + disable PAL selector + Sharp vmode]
+[unlock progressive scan mode 480p + disable PAL selector + less blur]
 author= by felixthecat1970
-comment=autoboot, call sharp mode but also dithering is enabled.
+comment=autoboot, less blur screen
+gsaspectratio=16:9
 patch=0,EE,20203B78,extended,24050006
 patch=0,EE,002042F8,extended,24050007
 patch=0,EE,2013A638,extended,0000A82D
 patch=0,EE,0050D52C,extended,00000000
 patch=0,EE,00197F9C,extended,24030000
+
+[Unlock characters]
+author=pcsx2 forums
+comment=!!can alter your save progress, backup before test!!, saving game with this code is permanent, so no required to have this enabled after.
+patch=1,EE,40509898,extended,00CB0001
+patch=1,EE,66666666,extended,00000000
+patch=1,EE,10509BC4,extended,00006666
+
+[Widescreen fix]
+author=by el_patas
+comment=use when widescreen 16:9 mode is enabled in options, some side screen bugs
+patch=0,EE,1012A120,extended,3C013F40 //3C013F4D
+patch=0,EE,1012A124,extended,34210000 //3421B9CC
