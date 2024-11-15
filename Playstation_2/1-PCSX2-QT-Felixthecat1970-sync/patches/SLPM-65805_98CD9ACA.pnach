@@ -1,0 +1,27 @@
+gametitle=ゴジラ怪獣大乱闘 〜地球最終決戦〜 SLPM-65805 7EB64263
+
+[unlock languages]
+author=Felixthecat1970
+comment=Set in PS2 Bios before boot game, japanese menu option is "godzilla final wars" gallery now available other languages 
+patch=0,EE,201792E8,extended,00000000
+patch=0,EE,002419A4,extended,2C42003D
+
+[unlock language + undub b1]
+author=Felixthecat1970
+comment=use japanese audio but missing subtitles for fmv
+patch=0,EE,20241110,extended,AC850080
+patch=0,EE,20241118,extended,AC850070
+patch=0,EE,202AD05C,extended,3C1B005E
+patch=0,EE,202AD0E4,extended,83707350
+
+[progressive scan]
+author=Felixthecat1970
+comment=less blur image
+patch=0,EE,1022CB30,extended,34030026
+patch=0,EE,20225F20,extended,00000000
+patch=0,EE,0022CC68,extended,24030001
+patch=0,EE,2022CC58,extended,00000000
+patch=0,EE,2022BB24,extended,0000282D
+patch=0,EE,0022CF68,extended,24A50033
+patch=0,EE,1022CF64,extended,64C90140
+patch=0,EE,2022BB68,extended,00000000

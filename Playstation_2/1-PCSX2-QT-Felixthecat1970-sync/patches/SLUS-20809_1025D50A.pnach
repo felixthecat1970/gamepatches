@@ -1,0 +1,19 @@
+gametitle=Godzilla - Save the Earth (USA) SLUS-20809 1025D50A
+
+[unlock languages]
+author=Felixthecat1970
+comment=Set in PS2 Bios before boot game, japanese menu option is "godzilla final wars" gallery now available other languages 
+patch=0,EE,20179398,extended,00000000
+patch=0,EE,00243384,extended,2C42003D
+
+[progressive scan]
+author=Felixthecat1970
+comment=less blur image
+patch=0,EE,1022E510,extended,34030026
+patch=0,EE,20227900,extended,00000000
+patch=0,EE,0022E648,extended,24030001
+patch=0,EE,2022E638,extended,00000000
+patch=0,EE,2022D504,extended,0000282D
+patch=0,EE,0022E948,extended,24A50033
+patch=0,EE,1022E944,extended,64C90140
+patch=0,EE,2022D548,extended,00000000
