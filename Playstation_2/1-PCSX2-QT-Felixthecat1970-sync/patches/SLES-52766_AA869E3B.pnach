@@ -1,0 +1,27 @@
+gametitle=Godzilla - Save the Earth (Europe) (En,Fr,De,Es,It) SLES-52766 crc=AA869E3B
+
+[Enable progressive scan mode 60hz\60fps]
+author=Felixthecat1970
+comment=unlocked "godzilla final wars" option (japanese text only), use 300% overclock for get more stable 60fps
+patch=0,EE,20284F44,extended,0C08B393
+patch=0,EE,2022CE4C,extended,3C1B0023
+patch=0,EE,2022CE50,extended,C77ECE70
+patch=0,EE,2022CE54,extended,3C1B0059
+patch=0,EE,2022CE58,extended,E77EB438
+patch=0,EE,2022CE5C,extended,3C1B0058
+patch=0,EE,2022CE60,extended,24050045
+patch=0,EE,2022CE64,extended,A365A78A
+patch=0,EE,2022CE68,extended,08044AA4
+patch=0,EE,2022CE6C,extended,00000000
+patch=0,EE,2022CE70,extended,4353544E
+patch=0,EE,2022CE74,extended,00000000
+patch=0,EE,201792E8,extended,00000000
+patch=0,EE,002419A4,extended,2C42003D
+patch=0,EE,20225F20,extended,00000000
+patch=0,EE,1022CB30,extended,34030026
+patch=0,EE,2022CC58,extended,0000682D
+patch=0,EE,0022CC68,extended,24030001
+patch=0,EE,2022BB68,extended,00000000
+patch=0,EE,0022BB24,extended,24A50000
+patch=0,EE,0022CF68,extended,24A50033
+patch=0,EE,1022CF64,extended,64C90140

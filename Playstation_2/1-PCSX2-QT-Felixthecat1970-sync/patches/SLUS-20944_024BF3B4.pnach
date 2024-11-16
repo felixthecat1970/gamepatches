@@ -1,0 +1,18 @@
+gametitle=Power Rangers - Dino Thunder NTSC-U SLUS-20944 024BF3B4
+
+[Enable native progressive scan]
+author=Felixthecat1970
+comment=clean image
+patch=0,EE,10140080,extended,240301E0
+patch=0,EE,101400A8,extended,24030500
+patch=0,EE,101400BC,extended,24030001
+
+[unlock fps to 60 b.alt]
+author=Felixthecat1970
+comment=beta, demo mode double speed, iso patcheable, other possible bugs
+patch=0,EE,101400D4,extended,2403003C
+patch=0,EE,2020A6BC,extended,241B0001
+patch=0,EE,2020A6C4,extended,03E00008
+patch=0,EE,2020A6C8,extended,A39B8520
+patch=0,EE,2020A7A8,extended,241B0002
+patch=0,EE,2020A7F8,extended,A39B8520
