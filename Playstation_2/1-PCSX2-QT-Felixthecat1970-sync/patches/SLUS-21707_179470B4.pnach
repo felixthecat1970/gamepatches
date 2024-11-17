@@ -1,0 +1,34 @@
+gametitle=Godzilla - Unleashed (USA) SLUS-21707 crc=179470B4
+
+[Unlock languages]
+author=Felixthecat1970
+comment=set language in PS2 bios before start
+patch=0,EE,201C57E4,extended,8394EDFC
+
+[autoboot progressive scan]
+author=Felixthecat1970
+comment=clean image
+patch=0,EE,1013599C,extended,34030026
+patch=0,EE,201271C8,extended,00000000
+patch=0,EE,20135AB8,extended,0000282D
+patch=0,EE,00135CD8,extended,25040033
+patch=0,EE,10135CE4,extended,65430140
+patch=0,EE,00135AE0,extended,240E0001
+patch=0,EE,20136BB0,extended,00000000
+patch=0,EE,20136BA4,extended,0000102D
+
+[unlock 60 fps gameplay]
+author=Felixthecat1970
+comment=unlock by game code set, still require 300% overclock for beteer fps
+patch=0,EE,2012738C,extended,00000000
+
+[widescreen b1]
+author=Felixthecat1970
+comment=gameplay only, missing 2d menu aspect ratio corrections
+gsaspectratio=16:9
+patch=0,EE,20137950,extended,0C03FFF8
+patch=0,EE,200FFFE0,extended,3C1B3F40
+patch=0,EE,200FFFE4,extended,449BF800
+patch=0,EE,200FFFE8,extended,461F0842
+patch=0,EE,200FFFEC,extended,03E00008
+patch=0,EE,200FFFF0,extended,E6150170

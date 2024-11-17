@@ -1,0 +1,23 @@
+gametitle=Godzilla - Unleashed (Europe) (En,Fr,De,Es,It) SLES-54960 crc=6F6CEB7D
+
+[progressive scan mode 60HZ\60FPS]
+author=Felixthecat1970
+comment=
+patch=0,EE,101359A4,extended,34030026
+patch=0,EE,201271B4,extended,10620006
+patch=0,EE,00135C3C,extended,25440033
+patch=0,EE,10135C48,extended,65A30140
+patch=0,EE,201369F0,extended,00000000
+patch=0,EE,2012738C,extended,A24006D8
+
+[widescreen b1]
+author=Felixthecat1970
+comment=gameplay only, missing 2d menu aspect ratio corrections
+gsaspectratio=16:9
+patch=0,EE,20137760,extended,0C03FFF8
+patch=0,EE,200FFFE0,extended,3C1B3F40
+patch=0,EE,200FFFE4,extended,449BF800
+patch=0,EE,200FFFE8,extended,461F0842
+patch=0,EE,200FFFEC,extended,03E00008
+patch=0,EE,200FFFF0,extended,E6150170
+
