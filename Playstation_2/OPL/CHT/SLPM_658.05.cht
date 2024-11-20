@@ -2,7 +2,13 @@
 Mastercode
 90100208 0C0A14A0
 
-//Unlock languages by felixthecat1970
+//A Unlock languages and undub beta1 -disable codeblock B before- by felixthecat1970
+//20241110 AC850080
+//20241118 AC850070
+//202AD05C 3C1B005E
+//202AD0E4 83707350
+
+//B Unlock languages only -disable codeblock A before- by felixthecat1970
 201792E8 00000000
 202419A4 2C42003D
 
@@ -16,7 +22,7 @@ Mastercode
 2022CF64 64C90140
 2022BB68 00000000
 
-//widescreen by ElHecht \ Arapapa
+//widescreen by ElHecht - Arapapa
 20243DCC 08054684
 20243DD0 00000000
 20151A10 3C013F40
