@@ -1,0 +1,24 @@
+gametitle=Need for Speed - Hot Pursuit 2 (Europe, Australia) (En,Fr,De,Es,It,Sv) [SLES-50731] (Version 1.00 / 2.00) crc=1D2818AF
+
+[Enable native NTSC60hz for PAL]
+author=Felixthecat1970
+comment=enable language selector start \ menu options
+patch=0,EE,2032F290,extended,4353544E
+patch=0,EE,2032F294,extended,4741542E
+patch=0,EE,2032F298,extended,72723C2E
+patch=0,EE,2016F908,extended,0000102D
+patch=0,EE,201EEC0C,extended,0000102D
+
+[less blur screen test]
+author=Felixthecat1970
+comment=less screen blur for scaling 2x+
+patch=0,EE,002C7ACC,extended,00000000
+patch=0,EE,002C7B28,extended,00000000
+patch=0,EE,00108274,extended,24020060
+patch=0,EE,2C7AE0,extended,00
+patch=0,EE,2C7B3C,extended,00
+
+[uncap to 60fps alt]
+author=Felixthecat1970
+comment=by flag set, use overclock for better fps, (console fps will be variable 30~60)
+patch=0,EE,0032F638,extended,00000000

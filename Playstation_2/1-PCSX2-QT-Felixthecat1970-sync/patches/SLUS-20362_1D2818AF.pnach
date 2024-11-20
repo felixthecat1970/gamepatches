@@ -1,0 +1,21 @@
+gametitle=Need for Speed - Hot Pursuit 2 (USA) SLUS-20362 crc=1D2818AF
+
+[Unlock multilanguage for USA]
+author=Felixthecat1970
+comment=unlock language selection start \ menu options
+patch=0,EE,2016F908,extended,0000102D
+patch=0,EE,201EEC0C,extended,0000102D
+
+[less blur screen test]
+author=Felixthecat1970
+comment=less screen blur for scaling 2x+
+patch=0,EE,00108274,extended,24020060 //802x
+patch=0,EE,002C7ACC,extended,00 //800
+patch=0,EE,002C7B28,extended,00
+patch=0,EE,2C7AE0,extended,00 //80
+patch=0,EE,2C7B3C,extended,00
+
+[Uncap FPS to 60fps alt]
+author=Felixthecat1970
+comment=by flag set, use overclock for better fps, (console fps will be variable 30~60)
+patch=0,EE,0032F638,extended,00000000
