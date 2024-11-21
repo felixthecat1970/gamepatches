@@ -1,0 +1,25 @@
+gametitle=Need for Speed - Underground (Europe) (En,Fr,De,Es,It,Nl,Sv) [SLES-51967] (Version 1.01) crc=FDA10318
+
+[Enable NTSC60hz/60fps]
+author=Felixthecat1970
+comment=call native functions already implemented in game code
+patch=0,EE,2011B564,extended,24040001
+
+[Less blur screen]
+author=Felixthecat1970
+comment=preserve others posteffects, for scaling 2x+
+patch=0,EE,42EF0C,extended,00
+patch=0,EE,42EF68,extended,00
+patch=0,EE,42EF20,extended,00
+patch=0,EE,42EF7C,extended,00
+patch=0,EE,106774,extended,60
+
+[disable cap fps]
+author=Felixthecat1970
+comment=set by flag will unlock fps for gameplay till 60fps, require 180% or more better fps, consoles will be variable 30 ~ 60
+patch=0,EE,4FF39C,extended,00
+
+[Experimental load USA region b1]
+author=Felixthecat1970
+comment=load USA parameters NTSC60hz, language set by PS2 bios no selector, fmv usa script, unknow other changes
+patch=0,EE,202C5FC4,extended,0000102D
