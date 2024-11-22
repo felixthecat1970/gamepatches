@@ -1,0 +1,32 @@
+Need for Speed - Underground 2 (Europe) (En,Fr,De,Es,It,Nl,Sv,Da) (v2.00) SLES-52725 crc=0197EBD0
+
+[Enable native NTSC60hz mode]
+author=Felixthecat1970
+comment=call native functions implemented in game code
+patch=0,EE,202EED80,extended,0000102D
+
+[less blur screen]
+author=Felixthecat1970
+comment=for scaling 2x+
+//patch=0,EE,1CD3D8,extended,2468FFFF
+patch=0,EE,4BBF24,extended,00
+patch=0,EE,4BBF80,extended,00
+patch=0,EE,4BBF94,extended,00
+patch=0,EE,4BBF38,extended,00
+patch=0,EE,1CD46C,extended,60
+
+[auto enable Widescreen alt]
+author=Felixthecat1970
+comment=enabled by default in game code
+gsaspectratio=16:9
+patch=0,EE,20274560,extended,A2C2004C
+
+[unlock 60 fps alt]
+author=Felixthecat1970
+comment=enable native option, framedrops, need 130%+ overclock, doble speed animations start race / end race
+patch=0,EE,5658AC,extended,00
+
+[Experimental USA region parameters b1]
+author=Felixthecat1970
+comment=load USA parameters gamecode, no fmv, burnout demo will not load- no files or not usa boot,
+patch=0,EE,567D8C,extended,00

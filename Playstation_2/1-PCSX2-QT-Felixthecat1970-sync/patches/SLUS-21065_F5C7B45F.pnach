@@ -1,0 +1,27 @@
+gametitle=Need for Speed - Underground 2 (USA) SLUS-21065 crc=F5C7B45F
+
+[Unlock multilanguage]
+author=Felixthecat1970
+comment=set french, german, italian, spanish, Dutch in PS2 bios before start, fmv - audio will be english only
+patch=0,EE,202655F4,extended,0040802D
+patch=0,EE,202655F8,extended,24020001
+
+[autoenable in game widescreen]
+author=Felixthecat1970
+comment=boot option by default
+gsaspectratio=16:9
+patch=0,EE,20276E20,extended,A2C2004C
+
+[less blur screen]
+author=Felixthecat1970
+comment=for scaling 2x+
+patch=0,EE,004C6124,extended,00
+patch=0,EE,004C6180,extended,00
+patch=0,EE,004C6194,extended,00
+patch=0,EE,004C6138,extended,00
+patch=0,EE,001CD454,extended,60
+
+[unlock fps alt]
+author=Felixthecat1970
+comment=unlock by set flag, still require overclock for better fps, consoles will be variable, race start scenes double speed
+patch=0,EE,0056FAAC,extended,00
