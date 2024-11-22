@@ -1,0 +1,19 @@
+"Need for Speed - Underground 2 USA /ID SLUS_210.65"
+Mastercode
+90100208 0C0B7A8C
+
+//Unlock multilanguage by felixthecat1970
+202655F4 0040802D
+202655F8 24020001
+
+//clean image by felixthecat1970
+004C6124 00000000
+004C6180 00000000
+004C6194 00000000
+004C6138 00000000
+
+//widescreen by default by felixthecat1970
+20276E20 A2C2004C
+
+//Unlock FPS variable by felixthecat1970
+2056FAAC 00000000
