@@ -1,0 +1,40 @@
+gametitle=Need for Speed - Most Wanted - Black Edition (USA) SLUS-21351 0518D274
+
+[Unlock multilanguage b2]
+author=Felixthecat1970
+comment=set in PAL bios german, french, italian, spanish, dutch, it will autoboot it, fmv and audio will play in english
+patch=0,EE,2026A8A8,extended,0C0C4A7E
+patch=0,EE,203860E0,extended,0C0C4A7E
+patch=0,EE,202797D4,extended,0C14CE70
+patch=0,EE,202797F0,extended,0C14CE70
+patch=0,EE,205339C0,extended,3C030057
+patch=0,EE,205339C4,extended,8C62EB08
+patch=0,EE,205339C8,extended,2C5B0005
+patch=0,EE,205339CC,extended,13600002
+patch=0,EE,205339D0,extended,00000000
+patch=0,EE,205339D4,extended,0000102D
+patch=0,EE,205339D8,extended,03E00008
+
+[autoenable widescreen]
+author=Felixthecat1970
+comment=enable boot default option
+gsaspectratio=16:9
+patch=0,EE,2026D9F8,extended,E480000C
+
+[Less blur screen test]
+author=Felixthecat1970
+comment=for scaling 2x+
+patch=0,EE,00201C78,extended,60
+patch=0,EE,0054B7F0,extended,00
+patch=0,EE,0054B794,extended,00
+patch=0,EE,0054B804,extended,00
+patch=0,EE,0054B7A8,extended,00
+patch=0,EE,1054B7A0,extended,09FF
+patch=0,EE,1054B7FC,extended,09FF
+patch=0,EE,1054B77C,extended,09FF
+patch=0,EE,1054B7D8,extended,09FF
+patch=0,EE,54B764,extended,7c 
+patch=0,EE,54B7C0,extended,7c
+patch=0,EE,54B788,extended,7c
+patch=0,EE,54B7E4,extended,7c
+patch=0,EE,00201BF0,extended,24A8FFFF
