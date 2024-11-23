@@ -35,14 +35,6 @@ patch=0,EE,54BB04,extended,00
 patch=0,EE,54BAA8,extended,00
 patch=0,EE,201BF0,extended,FF
 patch=0,EE,00201C78,extended,60
-patch=0,EE,1054BAA0,extended,09FF //9ff - aditional for console test
-patch=0,EE,1054BAFC,extended,09FF
-patch=0,EE,1054BA7C,extended,09FF
-patch=0,EE,1054BAD8,extended,09FF
-patch=0,EE,54BA64,extended,7C 
-patch=0,EE,54BAC0,extended,7C
-patch=0,EE,54BA88,extended,7C
-patch=0,EE,54BAE4,extended,7C
 
 [Experimental load USA parameters]
 author=Felixthecat1970
