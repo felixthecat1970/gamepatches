@@ -6,18 +6,18 @@ comment=Set in PS2 Bios before boot game, japanese menu option is "godzilla fina
 patch=0,EE,201792E8,extended,00000000
 patch=0,EE,002419A4,extended,2C42003D
 
-[unlock language + undub b1]
+[unlock language + undub b2]
 author=Felixthecat1970
 comment=use japanese audio but missing subtitles for fmv
 patch=0,EE,20241110,extended,AC850080
-patch=0,EE,20241118,extended,AC850070
+patch=0,EE,20241118,extended,03E00008
 patch=0,EE,202AD05C,extended,3C1B005E
 patch=0,EE,202AD0E4,extended,83707350
 
 [progressive scan]
 author=Felixthecat1970
 comment=less blur image
-patch=0,EE,1022CB30,extended,34030026
+patch=0,EE,1022CB30,extended,34030066
 patch=0,EE,20225F20,extended,00000000
 patch=0,EE,0022CC68,extended,24030001
 patch=0,EE,2022CC58,extended,00000000
