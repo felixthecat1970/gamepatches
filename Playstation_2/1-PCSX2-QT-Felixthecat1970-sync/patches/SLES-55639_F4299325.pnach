@@ -1,0 +1,14 @@
+gametitle=Ben 10 - Ultimate Alien - Cosmic Destruction  SLES-55639  crc= F4299325
+
+[Unlock native widescreen-NTSC60hz-Less blur screen]
+author=Felixthecat1970
+comment=extended codes from usa inital widescreen mode
+gsaspectratio=16:9
+patch=0,EE,201005D4,extended,0000202D
+patch=0,EE,201004D4,extended,3C1B43E0
+patch=0,EE,201004EC,extended,449B6000
+patch=0,EE,20100530,extended,ACC293B8
+patch=0,EE,202A82C4,extended,0000382D
+patch=0,EE,202A82FC,extended,01405025
+patch=0,EE,202A8388,extended,A2000051
+patch=0,EE,202A85D8,extended,3404DF80
