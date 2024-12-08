@@ -1,0 +1,10 @@
+gametitle=Capcom vs. SNK 2 - Millionaire Fighting 2001 (Japan) [SLPM-74246] (Version 1.03). SLPM-65047 crc=B54C0319
+
+[Enable full frame mode v2]
+author=Felxithecat1970
+comment=add chara unlock by default, dithering is enabled, use 2x+ scaling or pcsx2-qt > dithering force 32bit recomended options
+patch=0,EE,20134E44,extended,24020002
+patch=0,EE,20134E48,extended,AC222990
+patch=0,EE,20134E58,extended,AC2029AC
+patch=0,EE,103F53C4,extended,0000FFFF
+patch=0,EE,0039E690,extended,02010206

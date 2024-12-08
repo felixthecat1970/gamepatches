@@ -1,0 +1,10 @@
+gametitle=Capcom vs. SNK 2 - Mark of the Millennium 2001 (USA) [SLUS-20246] (Version 1.01). SLUS-20246 crc=15149318
+
+[Enable full frame mode v2]
+author=Felxithecat1970
+comment=add chara unlock by default, dithering is enabled, use 2x+ scaling or pcsx2-qt > dithering force 32bit recomended options
+patch=0,EE,20134DB4,extended,24020002
+patch=0,EE,20134DB8,extended,AC22EDD0
+patch=0,EE,20134DC8,extended,AC20EDEC
+patch=0,EE,103F180C,extended,0000FFFF
+patch=0,EE,0039A5B0,extended,02010206
