@@ -1,0 +1,16 @@
+gametitle=Swords of Destiny (Europe) (En,Fr,Es) [SLES-53699] (Version 1.02) / UNDUB crc=54D6BEE3
+
+[Enable USA NTSC60hz parameters b1+less blur screen]
+author=Felixthecat1970
+comment=use disabled US instructions with multilanguage french - spanish, FMV flicker due they are native pal mode, use swosho undub patch with FMV NTSC Japan files for no flicker but subtitles will be english only.
+patch=0,EE,20207A34,extended,0000102D
+patch=0,EE,20207478,extended,00000000
+patch=0,EE,00206FD8,extended,2403004C
+patch=0,EE,2022F648,extended,AF829B10
+patch=0,EE,20208FF8,extended,0000202D
+
+[autoenable widescreen]
+author=Felixthecat1970
+comment=force widescreen mode instead bios set
+gsaspectratio=16:9
+patch=0,EE,2021A1A8,extended,24050001
