@@ -1,0 +1,12 @@
+gametitle=SOCOM - U.S. Navy SEALs (Australia) (En,Fr,De,Es,It), SCES-51618 D7923132
+
+[unlock fps by function+less blur screen]
+author=Felixthecat1970
+comment=unlock fps engine 50fps - fmv 25, less blur screen for scaling
+patch=0,EE,202E4260,extended,0000102D
+patch=0,EE,003A51FC,extended,3C
+patch=0,EE,003A5200,extended,3C
+patch=0,EE,2025E22C,extended,00000000
+patch=0,EE,2033521C,extended,2404003C
+patch=0,EE,20336194,extended,2404003C
+//patch=0,EE,00291478,extended,24040019 //alt pas pal c.v test
