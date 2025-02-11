@@ -1,0 +1,22 @@
+gametitle=Need for Speed - Most Wanted (Europe) (En,Fr,De,Es,It,Nl,Sv) [SLES-53559] (Version 1.00) crc=CA2A1B04
+
+[autoboot NTSC60hz\60fps]
+author=Felixthecat1970
+comment=unlock native NTSC60hz vmode for PAL gamecode
+patch=0,EE,20322DB4,extended,0000102D
+
+[autoenable widescreen]
+author=Felixthecat1970
+comment=enable as default in gamecode
+gsaspectratio=16:9
+patch=0,EE,2026D9F8,extended,E480000C
+
+[Less blur screen]
+author=Felixthecat1970
+comment=for scaling 2x+
+patch=0,EE,54BA94,extended,00
+patch=0,EE,54BAF0,extended,00
+patch=0,EE,54BB04,extended,00
+patch=0,EE,54BAA8,extended,00
+patch=0,EE,201BF0,extended,FF
+patch=0,EE,00201C78,extended,60
