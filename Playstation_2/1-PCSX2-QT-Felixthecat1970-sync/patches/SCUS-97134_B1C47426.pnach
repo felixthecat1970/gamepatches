@@ -1,0 +1,11 @@
+gametitle=SOCOM - U.S. Navy SEALs (USA) (v3.00) SCUS-97134 B1C47426
+
+[fps unlock-lessblurscreen]
+author=Felixthecat1970
+comment=unlock fps by game code unknow performance hit, less blur screen for scaling
+patch=0,EE,203A1EE4,extended,0000102D
+patch=0,EE,00488EE0,extended,3C
+patch=0,EE,00488EE4,extended,3C
+patch=0,EE,203216DC,extended,00000000
+patch=0,EE,2017D590,extended,2404003C
+patch=0,EE,2017C73C,extended,2404003C
