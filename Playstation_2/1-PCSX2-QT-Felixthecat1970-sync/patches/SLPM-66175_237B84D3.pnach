@@ -1,0 +1,20 @@
+gametitle=Castlevania: Curse of Darkness 悪魔城ドラキュラ 闇の呪印 - (Japan) (crc=237B84D3) (SLPM-66175)
+
+[DISABLE SCAN INTERPOLATE]
+author=felixthecat1970
+patch=0,EE,00416CCC,extended,24420000
+patch=0,EE,2043FF18,extended,24050001
+patch=0,EE,2043FF24,extended,ACE4FFF8
+
+[Ultrawide v1 43:18 3440x1440 ]
+author=felixthecat1970
+comment=use fmv to 16:9 option
+gsaspectratio=43:18
+patch=0,EE,20751A7C,extended,3C013F0E //hor value
+patch=0,EE,20751A80,extended,3421E23C
+patch=0,EE,20751A88,extended,44810000
+patch=0,EE,20751A8C,extended,4600C602
+patch=0,EE,209D0520,extended,C4900000 //item -x fix c420
+patch=0,EE,20443F38,extended,00000000 //fmv set 16:9
+patch=0,EE,20775A98,extended,24056E40
+patch=0,EE,20775AA4,extended,24072380

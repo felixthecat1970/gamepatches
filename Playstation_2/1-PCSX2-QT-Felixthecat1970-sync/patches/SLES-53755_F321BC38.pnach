@@ -1,0 +1,30 @@
+gametitle=Castlevania - Curse of Darkness (Europe) (En,Fr,De,Es,It) (crc=F321BC38) (SLES-53755)
+
+[UNDUB CHANGE AUDIO TO JAPANESE B1]
+author=Felixthecat1970
+comment=this enable locked japnaese audio, some aditional QoL code, not fully tested
+patch=0,EE,20440888,extended,0000202D
+patch=0,EE,00416CCC,extended,24420000
+patch=0,EE,204405EC,extended,AC43002C
+patch=0,EE,204405F0,extended,081100F2
+patch=0,EE,204405F4,extended,27BD0010
+
+[Ultrawide 3440x1440 43:18]
+author=felixthecat1970
+comment=use fmv to 16:9 option
+gsaspectratio=43:18
+patch=0,EE,207526FC,extended,3C013F0E //hor value
+patch=0,EE,20752700,extended,3421E23C
+patch=0,EE,20752708,extended,44810000
+patch=0,EE,2075270C,extended,4600C602
+patch=0,EE,209D1840,extended,C4900000 //item -x fix c420
+patch=0,EE,204448d0,extended,00000000 //fmv
+patch=0,EE,20776718,extended,24056D80
+patch=0,EE,20776724,extended,24072380
+
+[disable PAL selector]
+author=Felixthecat1970
+comment=default 60hz NTSC mode
+patch=0,EE,0093ADC0,extended,00000000
+patch=0,EE,0043E858,extended,24020002
+patch=0,EE,0043E90C,extended,24040004

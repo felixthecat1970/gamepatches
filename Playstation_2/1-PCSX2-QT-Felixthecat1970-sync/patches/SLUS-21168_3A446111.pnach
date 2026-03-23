@@ -1,0 +1,21 @@
+gametitle=Castlevania - Curse of Darkness (Usa) (crc=3A446111) (SLUS-21168)
+
+[Ultrawide v1 43:18 3440x1440]
+author=felixthecat1970
+comment=use fmv to 16:9 option
+gsaspectratio=43:18
+patch=0,EE,20751384,extended,3C013F0E //hor value
+patch=0,EE,20751388,extended,3421E23C
+patch=0,EE,20751390,extended,44810000
+patch=0,EE,20751394,extended,4600C602
+patch=0,EE,209CFAF0,extended,C4900000 //item -x fix c420
+patch=0,EE,20443EB8,extended,00000000 //fmv set 16:9
+patch=0,EE,20775398,extended,24056E40
+patch=0,EE,207753A4,extended,24072380
+
+[scan interpolate off]
+author=Felixthecat1970
+comment=some aditional QoL code, not fully tested
+patch=0,EE,2043FEDC,extended,0000202D
+patch=0,EE,20416CCC,extended,24420000
+patch=0,EE,2043FEE8,extended,ACE3FFF8
