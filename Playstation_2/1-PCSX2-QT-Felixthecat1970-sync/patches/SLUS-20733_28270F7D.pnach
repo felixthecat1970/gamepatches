@@ -1,0 +1,20 @@
+gametitle=Castlevania - Lament of Innocence (crc=28270F7D) (SLUS-20733)
+
+[Ultrawide 3440x1440 43:18]
+author=felixthecat1970
+comment=use fmv to 16:9 option
+gsaspectratio=43:18
+patch=0,EE,206E70F4,extended,3C013F0E //hor value
+patch=0,EE,206E70F8,extended,3421E23C
+patch=0,EE,206E7100,extended,44810000
+patch=0,EE,206E7104,extended,4600C602
+patch=0,EE,204511D0,extended,24057300 //y-pos fmv 16:9
+patch=0,EE,204511D4,extended,24062000 //x width
+patch=0,EE,204511DC,extended,24071B00 //y width
+
+[DISABLE SCAN INTERPOLATE]
+author=felixthecat1970
+comment=some aditional QoL code, not fully tested
+patch=0,EE,20432F68,extended,AE120024
+patch=0,EE,20432F70,extended,AE00002C
+patch=0,EE,004155E4,extended,24420000
